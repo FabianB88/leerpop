@@ -5,6 +5,8 @@ body.playing{overflow:hidden;height:100dvh}body.playing>header,body.playing>foot
 .player-entry{margin:0 26px 28px;padding:24px 30px;display:grid;grid-template-columns:1.1fr 1fr;gap:32px;align-items:center;background:#f6f0f7;border:1px solid #ded1e5;border-radius:22px}.player-entry h2{font-size:24px;letter-spacing:-.5px;margin:8px 0}.player-entry p{color:var(--muted);font-size:14px;margin:0}.player-field label{font-size:14px;font-weight:650}.player-field label span{font-weight:400}.player-field .text-input{margin:7px 0}.player-field .small{font-size:12px}.leaderboard{margin:28px 26px 0;padding:28px 30px;border:1px solid #ded1e5;border-radius:24px;background:#fffdf9}.leaderboard-heading{display:flex;gap:24px;justify-content:space-between;align-items:center}.leaderboard-heading h2{font-size:29px;letter-spacing:-.7px;margin:8px 0}.leaderboard-heading>div:last-child{min-width:200px}.leaderboard-heading label{font-size:12px;font-weight:650;display:block;margin-bottom:5px}.high-scores{padding:0;margin:18px 0;list-style:none}.high-scores li{display:flex;align-items:center;gap:16px;padding:15px 0;border-top:1px solid #ece2ed}.score-rank{color:#947799;font-size:14px;font-weight:750;min-width:24px}.high-scores li>div{min-width:0}.high-scores li>div>strong{display:block;overflow-wrap:anywhere}.score-detail{display:block;color:var(--muted);font-size:12px}.score-points{margin-left:auto;white-space:nowrap;font-size:15px}.save-score{font-size:12px;padding:7px 12px;border-radius:10px;white-space:nowrap}.playtop{gap:12px}.playtop #shotsBadge{margin-left:0}.score-dialog{width:min(470px,calc(100vw - 28px));max-height:calc(100dvh - 32px);overflow:auto;border:1px solid #ded1e5;border-radius:24px;padding:30px;background:#fffaf7;color:var(--ink);box-shadow:0 20px 80px #382d4540}.score-dialog::backdrop{background:#382d4560;backdrop-filter:blur(5px)}.score-dialog h2{font-size:28px;line-height:1.2;letter-spacing:-.7px;margin:15px 0}.score-summary{background:#e9e0f4;border-radius:12px;padding:12px;font-weight:650}.score-dialog .field-label{display:block;font-size:14px;font-weight:650}.score-dialog .text-input{margin:7px 0}.score-message{min-height:24px;font-size:14px;color:#80503d}.score-dialog-actions{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;margin-top:12px}.score-dialog-actions .quiet{font-size:12px;padding:9px 11px}@media(max-width:700px){.player-entry{margin:0 18px 22px;padding:20px;grid-template-columns:1fr;gap:18px}.leaderboard{margin:24px 18px 0;padding:20px}.leaderboard-heading{align-items:stretch;flex-direction:column;gap:12px}.leaderboard-heading h2{font-size:25px}.score-points{font-size:13px}.high-scores li{gap:10px}.score-dialog{padding:22px}}@media(max-width:600px){.playtop{height:94px;display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:4px 8px;align-items:center}.playtop>div{grid-column:2/4;overflow:hidden}.playtop h1{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.playtop #score{grid-column:1;margin:0;white-space:nowrap}.playtop #shotsBadge{grid-column:2;justify-self:start;margin:0}.playtop .save-score{grid-column:3;font-size:11px;padding:7px 9px}.boardpanel{inset:94px 0 0}.boardpanel canvas{height:min(calc(100dvh - 159px),calc((100vw - 10px)*1.1875));max-height:calc(100dvh - 159px)}.questionpanel{max-height:calc(100dvh - 110px);top:calc(50% + 24px)}}
 
 .creator-credit{margin:0;font-size:14px;line-height:1.4;font-weight:600;text-align:right;color:var(--muted)}header{gap:16px}@media(max-width:560px){header{flex-wrap:wrap;gap:10px}.creator-credit{flex-basis:100%;text-align:left;font-size:13px}}
+
+.qhead{flex-wrap:wrap}.difficulty-badge{font-size:10px;background:#f4eef5}.difficulty-badge.is-hard{background:#f8e4ba;border-color:#ba9657;color:#694b1f}.questionpanel .challenge-choice{grid-column:1/-1;font-size:12px}.power-panel{position:absolute;z-index:1;bottom:32px;left:50%;transform:translateX(-50%);width:min(440px,calc(100% - 24px));background:#fffcf8e8;padding:9px 13px;border:1px solid #ded1e5;border-radius:16px;box-shadow:0 5px 20px #382d4510}.streak-meter{margin:0 0 6px;font-size:11px;font-weight:650}.power-buttons{display:flex;gap:8px}.power-buttons button{flex:1;padding:8px 9px;font-size:12px;white-space:nowrap;background:#735487}.power-buttons #rowPower{background:#9a7144}.power-buttons button:disabled{opacity:.55}.power-notice{font-size:10px;line-height:1.3;margin:6px 0 0;color:var(--muted)}.boardpanel canvas{height:min(calc(100dvh - 240px),calc((100vw - 24px)*1.1875));max-height:calc(100dvh - 240px)}.boardpanel>.small{bottom:7px;max-width:calc(100% - 36px);font-size:10px;text-align:center;left:18px;right:18px}.questionpanel{max-height:calc(100dvh - 118px)}@media(max-width:600px){.boardpanel canvas{height:min(calc(100dvh - 270px),calc((100vw - 10px)*1.1875));max-height:calc(100dvh - 270px)}.power-panel{bottom:28px;padding:8px 10px}.power-buttons button{font-size:11px;padding:8px 6px}.streak-meter{font-size:10px}.power-notice{font-size:9px}.boardpanel>.small{font-size:9px}.questionpanel{max-height:calc(100dvh - 114px)}}
 </style></head><body><header><a href="#" id="brand" aria-label="Leerpop beginscherm"><span class="logo">◌</span> leerpop<span class="tiny">LEREN MET EEN TWIST</span></a><p class="creator-credit">Gemaakt door Fien Heijneman</p></header><main id="home"><div class="hero"><div class="eyebrow">EEN VRAAG. EEN SCHOT. EEN STAP VERDER.</div><h1>Laat je kennis<br><span>boven komen.</span></h1><p>Oefen je leerstof, richt je bubbel en maak ruimte voor nieuwe kennis. Kies je cursus en speel in je eigen tempo.</p><div class="floaties" aria-hidden="true"><i>✦</i><i>◌</i><i>↗</i><i>✧</i></div></div><section class="player-entry" aria-labelledby="playerHeading">
   <div><span class="pill">SPEEL MEE</span><h2 id="playerHeading">Jouw naam op het scorebord.</h2><p>Vul alvast je naam in, of doe dat na het spelen. Bewaar je score en vergelijk je ronde met andere spelers.</p></div>
   <div class="player-field"><label for="playerName">Naam of bijnaam <span>(optioneel)</span></label><input id="playerName" class="text-input" maxlength="24" autocomplete="nickname" placeholder="Hoe heet je op het scorebord?" aria-describedby="playerNote"><p id="playerNote" class="small">Je naam en bewaarde score zijn zichtbaar voor alle spelers.</p></div>
@@ -12,8 +14,8 @@ body.playing{overflow:hidden;height:100dvh}body.playing>header,body.playing>foot
   <div class="leaderboard-heading"><div><span class="eyebrow">EEN BEETJE GEZONDE COMPETITIE</span><h2 id="leaderboardHeading">De beste spelrondes.</h2></div><div><label for="scoreCourse">Scorebord voor</label><select id="scoreCourse"><option value="sustainability">Duurzaamheid</option><option value="ethics">Business Ethics</option></select></div></div>
   <p id="scoreboardStatus" class="small" role="status" aria-live="polite">Gedeeld scorebord laden…</p>
   <ol id="highScores" class="high-scores" aria-label="Top 10 spelrondes"></ol>
-  <p class="small">Top 10 per cursus · een goed antwoord geeft 100 punten, elke gepopte bubbel 10. Kies in het spel ‘Score bewaren’ om je ronde af te sluiten.</p>
-</section><section class="how"><div><b>01</b><h3>Beantwoord</h3><p>Een goed antwoord geeft je een schot.</p></div><div><b>02</b><h3>Richt & pop</h3><p>Verbind drie bubbels van dezelfde kleur.</p></div><div><b>03</b><h3>Onthoud</h3><p>Lastige vragen komen later terug.</p></div></section><p class="footnote">Je voortgang wordt per cursus op dit apparaat bewaard. Geen timer, geen haast.</p></main><main id="play" hidden><div class="playtop"><button id="back" class="quiet">← Cursussen</button><div><span class="eyebrow" id="modeLabel"></span><h1 id="courseTitle"></h1></div><span class="badge" id="score">0 punten</span><span class="badge" id="shotsBadge">3 schoten</span><button id="finishGame" class="save-score" type="button">Score bewaren</button></div><section class="boardpanel"><div class="boardtop"><span id="level">Level 1</span><span id="boardStatus" role="status" aria-live="polite">Beantwoord eerst de vraag</span></div><canvas id="board" width="480" height="570" tabindex="0" aria-label="Bubble Shooter. De richtlijn beweegt vanzelf; klik om te schieten."></canvas><p class="small">Klik wanneer de bewegende stippellijn goed staat · Drie bubbels van dezelfde kleur knappen</p></section><section id="questionpanel" class="questionpanel" role="dialog" aria-modal="true" aria-labelledby="question"><div class="filters"><label for="module">Onderwerp</label><select id="module"></select><label class="check"><input id="review" type="checkbox"> Alleen lastige vragen</label></div><div class="qhead"><span class="pill" id="qmodule"></span><span id="counter"></span></div><h2 id="question"></h2><div id="answers"></div><div id="feedback" role="status" aria-live="polite"></div><a id="source" target="_blank" rel="noopener">Bekijk de bijbehorende e-learning ↗</a><button id="next" hidden>Volgende vraag →</button><p id="learningStats" class="small"></p></section></main><dialog id="scoreDialog" class="score-dialog" aria-labelledby="scoreDialogHeading">
+  <p class="small">Top 10 per cursus · een basisantwoord geeft 100 punten, verdieping 200, elke verwijderde bubbel 10. Kies in het spel ‘Score bewaren’ om je ronde af te sluiten.</p>
+</section><section class="how"><div><b>01</b><h3>Beantwoord</h3><p>Een goed antwoord geeft je een schot.</p></div><div><b>02</b><h3>Richt & pop</h3><p>Verbind drie bubbels van dezelfde kleur.</p></div><div><b>03</b><h3>Onthoud</h3><p>Bewaar lastige vragen om gericht te herhalen.</p></div></section><p class="footnote">Je voortgang wordt per cursus op dit apparaat bewaard. Geen timer, geen haast.</p></main><main id="play" hidden><div class="playtop"><button id="back" class="quiet">← Cursussen</button><div><span class="eyebrow" id="modeLabel"></span><h1 id="courseTitle"></h1></div><span class="badge" id="score">0 punten</span><span class="badge" id="shotsBadge">3 schoten</span><button id="finishGame" class="save-score" type="button">Score bewaren</button></div><section class="boardpanel"><div class="boardtop"><span id="level">Level 1</span><span id="boardStatus" role="status" aria-live="polite">Beantwoord eerst de vraag</span></div><canvas id="board" width="480" height="570" tabindex="0" aria-label="Bubble Shooter. De richtlijn beweegt vanzelf; klik om te schieten."></canvas><section class="power-panel" aria-label="Verdiende specials"><p id="streakMeter" class="streak-meter">3 goede antwoorden op rij = een kleurknaller</p><div class="power-buttons"><button id="colorPower" type="button" disabled title="Haal alle bubbels weg met de kleur van je huidige schot">✦ Kleurknaller · 0</button><button id="rowPower" type="button" disabled title="Haal de onderste gevulde rij bubbels weg">↔ Rijveger · 0</button></div><p id="powerNotice" class="power-notice" role="status" aria-live="polite">Gebruik specials tijdens het schieten, zonder een schot te verliezen.</p></section><p class="small">Klik wanneer de bewegende stippellijn goed staat · Drie bubbels van dezelfde kleur knappen</p></section><section id="questionpanel" class="questionpanel" role="dialog" aria-modal="true" aria-labelledby="question"><div class="filters"><label for="module">Onderwerp</label><select id="module"></select><label class="check"><input id="review" type="checkbox"> Alleen lastige vragen</label><label id="challengeChoice" class="check challenge-choice"><input id="challenge" type="checkbox" checked> Ook verdiepingsvragen · extra rijvegers</label></div><div class="qhead"><span class="pill" id="qmodule"></span><span id="difficultyBadge" class="pill difficulty-badge">BASIS</span><span id="counter"></span></div><h2 id="question"></h2><div id="answers"></div><div id="feedback" role="status" aria-live="polite"></div><a id="source" target="_blank" rel="noopener">Bekijk de bijbehorende e-learning ↗</a><button id="next" hidden>Volgende vraag →</button><p id="learningStats" class="small"></p></section></main><dialog id="scoreDialog" class="score-dialog" aria-labelledby="scoreDialogHeading">
   <form id="scoreForm"><span class="eyebrow">JE HEBT WEER IETS GELEERD</span><h2 id="scoreDialogHeading">Zet je score op het bord.</h2><p id="scoreSummary" class="score-summary"></p>
   <label class="field-label" for="scoreName">Naam of bijnaam</label><input id="scoreName" class="text-input" maxlength="24" autocomplete="nickname" required placeholder="Jouw naam op het scorebord" aria-describedby="scorePrivacy"><p id="scorePrivacy" class="small">Deze naam en score zijn openbaar. Kies gerust een bijnaam.</p>
   <p id="scoreMessage" class="score-message" role="status" aria-live="polite"></p><button id="submitScore" class="start" type="submit">Bewaar & naar cursussen <span>↗</span></button>
@@ -96,10 +98,60 @@ window.LEERPOP_FIREBASE = {
 
 });</script><script>window.addEventListener("DOMContentLoaded",()=>{
 'use strict';
+(function (root) {
+  function shuffle(items, random = Math.random) {
+    const result = [...items];
+    for (let i = result.length - 1; i > 0; i--) {
+      const j = Math.floor(random() * (i + 1));
+      [result[i], result[j]] = [result[j], result[i]];
+    }
+    return result;
+  }
+  function questionQueue(questions, { fromModule = 1, challenges = true, reviewIds = null, seenIds = [], random = Math.random } = {}) {
+    const seen = new Set(seenIds);
+    const review = reviewIds === null ? null : new Set(reviewIds);
+    const unique = new Map();
+    for (const question of questions) {
+      if (question.module < fromModule || seen.has(question.id) || (!challenges && question.difficulty === 'hard')
+        || (review && !review.has(question.id))) continue;
+      unique.set(question.id, question);
+    }
+    const groups = new Map();
+    for (const question of unique.values()) {
+      if (!groups.has(question.module)) groups.set(question.module, []);
+      groups.get(question.module).push(question);
+    }
+    return [...groups.keys()].sort((a, b) => a - b).flatMap(module => {
+      const items = groups.get(module);
+      return [...shuffle(items.filter(q => q.difficulty !== 'hard'), random), ...shuffle(items.filter(q => q.difficulty === 'hard'), random)];
+    });
+  }
+  function reward(streak, correct, difficult = false) {
+    if (!correct) return { streak: 0, color: 0, row: 0, points: 0 };
+    const next = streak + 1;
+    return { streak: next, color: next % 3 === 0 ? 1 : 0, row: difficult ? 1 : 0, points: difficult ? 200 : 100 };
+  }
+  function powerTargets(grid, type, color) {
+    const cells = [];
+    if (type === 'row') {
+      const row = grid.findLastIndex(items => items.some(item => item !== null));
+      if (row >= 0) grid[row].forEach((item, col) => { if (item !== null) cells.push([row, col]); });
+    } else if (type === 'color') {
+      grid.forEach((items, row) => items.forEach((item, col) => { if (item === color) cells.push([row, col]); }));
+    }
+    return cells;
+  }
+  root.LeerpopRules = { shuffle, questionQueue, reward, powerTargets };
+  if (typeof module !== 'undefined') module.exports = root.LeerpopRules;
+})(typeof window !== 'undefined' ? window : globalThis);
+
+});</script><script>window.addEventListener("DOMContentLoaded",()=>{
+'use strict';
 const $=id=>document.getElementById(id),names={sustainability:'Duurzaamheid',ethics:'Business Ethics'},modules={sustainability:['Systeemdenken & duurzaamheid','Aarde & planetaire grenzen','Circulaire economie & R-ladder','Klimaat & infrastructuur','Waardecreatie & materialiteit','Biomimicry','Wicked problems & CLD','Strategische besluitvorming','Synthese & LCA'],ethics:['Economie & systemen','Psychologie & systemen','Organisaties & macht','Technologie & morele interventie','Greenwashing']};
 let bank,course,current,options,queue=[],locked=false,ready=false,flying=null,score=0,level=1,shots=0,shotsRemaining=0,answered=0,angle=-Math.PI/2,grid=[],particles=[],lastTime=0,storageWorks=true,phase="question";
 let nextQuestionTimer=null,scoreSnapshot=null,scoreSaving=false,gameSessionId='';
 let stopScoreListener=()=>{};
+let roundSeen=new Set(),correctStreak=0,powers={color:0,row:0};
 const customStorageKey='leerpop-own-modules-v2';
 let ownModules=[];
 try{ownModules=JSON.parse(localStorage.getItem(customStorageKey)||'[]')}catch{ownModules=[]}
@@ -108,19 +160,67 @@ function read(){try{return JSON.parse(localStorage.getItem('leerpop-v1'))||{}}ca
 let progress=read();
 function stats(){if(!progress[course])progress[course]={correct:[],hard:[],attempts:0,best:0};return progress[course]}
 function save(){try{localStorage.setItem('leerpop-v1',JSON.stringify(progress))}catch{storageWorks=false}}
-function shuffle(a){return [...a].sort(()=>Math.random()-.5)}
+function shuffle(a){return LeerpopRules.shuffle(a)}
 function home(){clearTimeout(nextQuestionTimer);scoreSnapshot=null;document.body.classList.remove('playing');ready=false;flying=null;$('play').hidden=true;$('home').hidden=false;for(const c of ['sustainability','ethics']){const p=progress[c]||{correct:[],hard:[]};$(c+'Progress').textContent=p.correct.length+' / '+bank[c].length+' goed beantwoord · '+p.hard.length+' om te herhalen'}renderCustomModules()}
 function persistModules(){try{localStorage.setItem(customStorageKey,JSON.stringify(ownModules));storageWorks=true;return true}catch{storageWorks=false;return false}}
 function prepareCustom(m){const key='own_'+m.id;names[key]=m.title;modules[key]=[m.title];bank[key]=m.concepts.map((item,i)=>{const wrong=shuffle(m.concepts.filter((_,j)=>j!==i)).slice(0,2).map(x=>x.explanation);const choices=shuffle([{text:item.explanation,correct:true},...wrong.map(text=>({text,correct:false}))]);return{id:key+'-'+i,module:1,q:'Wat betekent “'+item.term+'”?',options:choices.map(x=>x.text),answer:choices.findIndex(x=>x.correct),explanation:item.explanation,source:''}})}
 function renderCustomModules(){const host=$('customModules');host.replaceChildren();for(const m of ownModules){const key='own_'+m.id;prepareCustom(m);const p=progress[key]||{correct:[],hard:[]};const card=document.createElement('article');card.className='course custom-course';const badge=document.createElement('span');badge.className='pill';badge.textContent=m.concepts.length+' BEGRIPPEN';const title=document.createElement('h2');title.textContent=m.title;const description=document.createElement('p');description.textContent=m.concepts.slice(0,3).map(x=>x.term).join(' · ')+(m.concepts.length>3?' · …':'');const stat=document.createElement('div');stat.className='progress';stat.textContent=p.correct.length+' / '+m.concepts.length+' goed beantwoord';const button=document.createElement('button');button.className='start';button.textContent='Speel '+m.title+'  ↗';button.addEventListener('click',()=>start(key));card.append(badge,title,description,stat,button);host.append(card)}}
 function addConceptRow(term='',explanation=''){const row=document.createElement('div');row.className='concept-row';for(const [labelText,value] of [['Begrip',term],['Uitleg',explanation]]){const label=document.createElement('label');label.className='concept-field';const caption=document.createElement('span');caption.textContent=labelText;const input=document.createElement(labelText==='Uitleg'?'textarea':'input');if(labelText==='Uitleg'){input.rows=2;input.maxLength=500}else input.maxLength=90;input.placeholder=labelText==='Begrip'?'Bijvoorbeeld: R-ladder':'Leg het begrip kort uit';input.value=value;input.required=true;input.setAttribute('aria-label',labelText);label.append(caption,input);row.append(label)}const remove=document.createElement('button');remove.type='button';remove.className='remove-concept';remove.textContent='Verwijder';remove.setAttribute('aria-label','Verwijder dit begrip');remove.addEventListener('click',()=>{if($('conceptRows').children.length>3)row.remove();else $('builderMessage').textContent='Een module heeft minimaal drie begrippen nodig.'});row.append(remove);$('conceptRows').append(row)}
 function saveCustomModule(){const title=$('customTitle').value.trim();const concepts=[...$('conceptRows').querySelectorAll('.concept-row')].map(row=>({term:row.querySelector('input').value.trim(),explanation:row.querySelector('textarea').value.trim()})).filter(x=>x.term&&x.explanation);if(!title){$('builderMessage').textContent='Geef je module eerst een naam.';$('customTitle').focus();return}if(concepts.length<3){$('builderMessage').textContent='Vul minimaal 3 volledige begrippen in. Je hebt er nu '+concepts.length+'.';return}const module={id:Date.now().toString(36)+Math.random().toString(36).slice(2,7),title,concepts};ownModules.unshift(module);if(!persistModules()){ownModules.shift();$('builderMessage').textContent='Opslaan op dit apparaat is niet beschikbaar; probeer de pagina via een gewone browser te openen.';return}prepareCustom(module);$('builderMessage').textContent='Je module is klaar en staat nu op je startscherm.';$('customTitle').value='';$('conceptRows').replaceChildren();for(let i=0;i<3;i++)addConceptRow();renderCustomModules();setTimeout(()=>{$('builder').hidden=true;$('builderMessage').textContent=''},1100)}
-function pool(){return bank[course].filter(q=>(!$('module').value||q.module===Number($('module').value))&&(!$('review').checked||stats().hard.includes(q.id)))}
-function refill(){queue=shuffle(pool())}
-function start(c){clearTimeout(nextQuestionTimer);gameSessionId=LeerpopScores.sessionId();LeerpopScores.rememberName($('playerName').value);document.body.classList.add('playing');course=c;score=0;level=1;answered=0;$('module').replaceChildren(new Option('Alle onderwerpen binnen deze cursus',''),...modules[c].map((m,i)=>new Option((i+1)+'. '+m,String(i+1))));$('finishGame').textContent=c.startsWith('own_')?'Ronde afsluiten':'Score bewaren';$('review').checked=false;$('home').hidden=true;$('play').hidden=false;$('courseTitle').textContent=names[c];$('modeLabel').textContent=c==='ethics'?'TOEPASSINGSVRAGEN':c.startsWith('own_')?'JOUW BEGRIPPEN':'BEGRIPPEN & MODELLEN';refill();newBoard();next();window.scrollTo(0,0)}
-function next(){ready=false;locked=false;phase='question';shotsRemaining=0;$('questionpanel').hidden=false;flying=null;$('shotsBadge').textContent='Beantwoord de vraag';$('next').hidden=true;$('feedback').textContent='';$('feedback').className='';$('answers').replaceChildren();if(!queue.length)refill();current=queue.shift();if(!current){$('question').textContent=$('review').checked?'Je hebt hier geen lastige vragen meer. Mooi gedaan!':'Geen vragen voor dit onderwerp.';$('qmodule').textContent='Selecteer een ander onderwerp';$('counter').textContent='';$('source').hidden=true;$('boardStatus').textContent='Kies een onderwerp of zet herhalen uit';return}$('source').hidden=!current.source;if(current.source)$('source').href=current.source;$('question').textContent=current.q;$('qmodule').textContent=modules[course][current.module-1];$('counter').textContent=`Vraag ${answered+1}`;$('learningStats').textContent=`${stats().correct.length} van ${bank[course].length} vragen goed beantwoord · ${stats().hard.length} lastig${storageWorks?'':' · opslaan is niet beschikbaar in deze browser'}`;options=shuffle(current.options.map((text,i)=>({text,i})));options.forEach((o,n)=>{const b=document.createElement('button'),letter=document.createElement('span'),text=document.createElement('div');letter.textContent=String.fromCharCode(65+n);text.textContent=o.text;b.append(letter,text);b.addEventListener('click',()=>answer(o.i,b));$('answers').append(b)});$('boardStatus').textContent='Beantwoord eerst de vraag';$('score').textContent=score+' punten'}
-function answer(index,button){if(locked)return;locked=true;answered++;const p=stats();p.attempts++;const ok=index===current.answer;[...$('answers').children].forEach((b,n)=>{b.disabled=true;if(options[n].i===current.answer)b.classList.add('correct')});if(ok){if(!p.correct.includes(current.id))p.correct.push(current.id);p.hard=p.hard.filter(x=>x!==current.id);score+=100;shotsRemaining=3;ready=false;phase='start';pickGun();$('shotsBadge').textContent='3 schoten verdiend';$('boardStatus').textContent='Goed antwoord · je krijgt 3 schoten';$('feedback').textContent='Goed! '+current.explanation+' Je mag nu drie keer schieten.';$('next').textContent='Start met schieten · 3 bubbels';$('next').hidden=false}else{phase='review';button.classList.add('wrong');if(!p.hard.includes(current.id))p.hard.push(current.id);queue.splice(Math.min(3,queue.length),0,current);const pressure=addPenaltyRow();$('feedback').className='error';$('feedback').textContent='Nog niet. '+current.explanation+' '+pressure+' Deze vraag komt later terug.';$('next').textContent='Verder oefenen →';$('next').hidden=false;$('boardStatus').textContent=pressure}p.best=Math.max(p.best,score);save();$('score').textContent=score+' punten';$('learningStats').textContent=`${p.correct.length} van ${bank[course].length} vragen goed beantwoord · ${p.hard.length} lastig`}
-
+function pool(){return LeerpopRules.questionQueue(bank[course],{fromModule:Number($('module').value)||1,challenges:$('challenge').checked,reviewIds:$('review').checked?stats().hard:null,seenIds:[...roundSeen]})}
+function refill(reset=false){if(reset)roundSeen=new Set();queue=pool()}
+function start(c){clearTimeout(nextQuestionTimer);gameSessionId=LeerpopScores.sessionId();LeerpopScores.rememberName($('playerName').value);document.body.classList.add('playing');course=c;score=0;level=1;answered=0;correctStreak=0;powers={color:0,row:0};roundSeen=new Set();$('module').replaceChildren(new Option('Alle onderwerpen · op volgorde',''),...modules[c].map((m,i)=>new Option((i+1)+'. '+m,String(i+1))));$('finishGame').textContent=c.startsWith('own_')?'Ronde afsluiten':'Score bewaren';$('review').checked=false;$('challenge').checked=!c.startsWith('own_');$('challengeChoice').hidden=c.startsWith('own_');$('home').hidden=true;$('play').hidden=false;$('courseTitle').textContent=names[c];$('modeLabel').textContent=c==='ethics'?'TOEPASSINGSVRAGEN':c.startsWith('own_')?'JOUW BEGRIPPEN':'BEGRIPPEN & MODELLEN';refill();newBoard();next();window.scrollTo(0,0)}
+function next(){
+  clearTimeout(nextQuestionTimer);ready=false;locked=false;phase='question';shotsRemaining=0;
+  $('questionpanel').hidden=false;flying=null;$('shotsBadge').textContent='Beantwoord de vraag';
+  $('next').hidden=true;$('feedback').textContent='';$('feedback').className='';$('answers').replaceChildren();
+  const previousModule=current?.module;current=queue.shift();
+  if(!current){
+    phase='complete';locked=true;
+    $('question').textContent=$('review').checked?'Je herhaalronde is afgerond!':'Je hebt alle vragen van deze ronde gehad!';
+    $('qmodule').textContent='RONDE AFGEROND';$('difficultyBadge').textContent='Goed geoefend';
+    $('counter').textContent=answered+' vragen beantwoord';$('source').hidden=true;
+    $('boardStatus').textContent='Ronde afgerond · bewaar je score of begin een nieuwe ronde';
+    $('learningStats').textContent=stats().hard.length?'Er staan '+stats().hard.length+' lastige vragen klaar. Kies Alleen lastige vragen om die te oefenen.':'Geen lastige vragen meer. Je kunt je score bewaren of nog een ronde spelen.';
+    $('next').textContent=$('review').checked?'Nog een herhaalronde →':'Nieuwe ronde · vanaf onderwerp 1 →';
+    $('next').hidden=$('review').checked&&!stats().hard.length;
+    renderPowers();return;
+  }
+  roundSeen.add(current.id);$('module').value=String(current.module);
+  $('source').hidden=!current.source;if(current.source)$('source').href=current.source;
+  $('question').textContent=current.q;$('qmodule').textContent=modules[course][current.module-1];
+  const difficult=current.difficulty==='hard';
+  $('difficultyBadge').textContent=difficult?'VERDIEPING · + RIJVEGER':'BASIS';
+  $('difficultyBadge').classList.toggle('is-hard',difficult);
+  $('counter').textContent='Vraag '+(answered+1);
+  $('learningStats').textContent=stats().correct.length+' van '+bank[course].length+' vragen goed beantwoord · '+stats().hard.length+' lastig'+(storageWorks?'':' · opslaan is niet beschikbaar in deze browser');
+  options=shuffle(current.options.map((text,i)=>({text,i})));
+  options.forEach((o,n)=>{const b=document.createElement('button'),letter=document.createElement('span'),text=document.createElement('div');letter.textContent=String.fromCharCode(65+n);text.textContent=o.text;b.append(letter,text);b.addEventListener('click',()=>answer(o.i,b));$('answers').append(b)});
+  $('boardStatus').textContent=previousModule&&previousModule!==current.module?'Volgend onderwerp: '+modules[course][current.module-1]:'Beantwoord eerst de vraag';
+  $('score').textContent=score+' punten';renderPowers();
+}
+function answer(index,button){
+  if(locked||!current)return;locked=true;answered++;
+  const p=stats();p.attempts++;const ok=index===current.answer;
+  const reward=LeerpopRules.reward(correctStreak,ok,current.difficulty==='hard');
+  correctStreak=reward.streak;powers.color+=reward.color;powers.row+=reward.row;
+  [...$('answers').children].forEach((b,n)=>{b.disabled=true;if(options[n].i===current.answer)b.classList.add('correct')});
+  if(ok){
+    if(!p.correct.includes(current.id))p.correct.push(current.id);p.hard=p.hard.filter(x=>x!==current.id);
+    score+=reward.points;shotsRemaining=3;ready=false;phase='start';pickGun();
+    $('shotsBadge').textContent='3 schoten verdiend';$('boardStatus').textContent='Goed antwoord · +'+reward.points+' punten';
+    const bonus=[reward.color?'Drie op rij: je verdient een kleurknaller!':'',reward.row?'Verdiepingsbonus: je verdient een rijveger!':''].filter(Boolean).join(' ');
+    $('feedback').textContent='Goed! '+current.explanation+' '+bonus+' Je mag nu drie keer schieten.';
+    $('next').textContent='Start met schieten · 3 bubbels';$('next').hidden=false;
+  }else{
+    phase='review';button.classList.add('wrong');if(!p.hard.includes(current.id))p.hard.push(current.id);
+    const pressure=addPenaltyRow();$('feedback').className='error';
+    $('feedback').textContent='Nog niet. '+current.explanation+' '+pressure+' Deze vraag staat bij Alleen lastige vragen om later te herhalen.';
+    $('next').textContent='Verder oefenen →';$('next').hidden=false;$('boardStatus').textContent=pressure;
+  }
+  p.best=Math.max(p.best,score);save();$('score').textContent=score+' punten';
+  $('learningStats').textContent=p.correct.length+' van '+bank[course].length+' vragen goed beantwoord · '+p.hard.length+' lastig';renderPowers();
+}
 function showHighScores(){
   stopScoreListener();
   const selected=$('scoreCourse').value;
@@ -193,14 +293,48 @@ function newBoard(){grid=Array.from({length:ROWS},()=>Array(COLS).fill(null));fo
 function pickGun(){const available=[...new Set(grid.flat().filter(x=>x!==null))];gun=available[Math.floor(Math.random()*available.length)]??0}
 function addPenaltyRow(){const row=Array.from({length:COLS},(_,c)=>(c+Math.floor(Math.random()*4))%4);const overflow=grid[ROWS-1].some(x=>x!==null);grid.pop();grid.unshift(row);if(overflow){newBoard();return'Extra rij toegevoegd — het veld bereikte de ondergrens, dus je krijgt een nieuw speelveld.'}return'Extra rij bubbels toegevoegd; je bestaande bubbels zakken een rij.'}
 function aim(x,y){angle=Math.max(-Math.PI+.18,Math.min(-.18,Math.atan2(y-launcher.y,x-launcher.x)))}
-function shoot(){if(!ready||flying||shotsRemaining<1)return;ready=false;shotsRemaining--;$('shotsBadge').textContent=shotsRemaining+' '+(shotsRemaining===1?'schot':'schoten')+' over';flying={x:launcher.x,y:launcher.y,vx:Math.cos(angle)*510,vy:Math.sin(angle)*510,color:gun};$('boardStatus').textContent='Daar gaat je bubbel!'}
-function settle(){const f=flying;flying=null;let cells=[];for(let r=0;r<ROWS;r++)for(let c=0;c<COLS;c++)if(grid[r][c]===null&&(r===0||neighbours(r,c).some(([rr,cc])=>grid[rr][cc]!==null))){let p=pos(r,c);cells.push({r,c,d:Math.hypot(p.x-f.x,p.y-f.y)})}cells.sort((a,b)=>a.d-b.d);const cell=cells[0];if(!cell){finishShot('Nieuw veld · je blijft oefenen');newBoard();return}grid[cell.r][cell.c]=f.color;const group=[],seen=new Set(),todo=[[cell.r,cell.c]];while(todo.length){let [r,c]=todo.pop(),key=r+','+c;if(seen.has(key)||grid[r][c]!==f.color)continue;seen.add(key);group.push([r,c]);todo.push(...neighbours(r,c))}let popped=0;if(group.length>=3){for(let [r,c] of group){burst(r,c);grid[r][c]=null;popped++}const attached=new Set(),reach=[];for(let c=0;c<COLS;c++)if(grid[0][c]!==null)reach.push([0,c]);while(reach.length){const [r,c]=reach.pop(),key=r+','+c;if(attached.has(key)||grid[r][c]===null)continue;attached.add(key);reach.push(...neighbours(r,c))}for(let r=0;r<ROWS;r++)for(let c=0;c<COLS;c++)if(grid[r][c]!==null&&!attached.has(r+','+c)){burst(r,c);grid[r][c]=null;popped++}score+=popped*10}shots++;let message=popped?`${popped} bubbels gepopt · +${popped*10} punten`:'Je bubbel zit vast · maak een groep van drie';if(grid.flat().every(x=>x===null)){level++;newBoard();message='Veld leeg! Op naar level '+level}else if(shots%5===0){if(grid[ROWS-1].some(x=>x!==null)){newBoard();message='Het veld was vol · een frisse start'}else{grid.pop();grid.unshift(Array.from({length:COLS},()=>Math.floor(Math.random()*4)));message+=' · nieuwe rij'}}if(grid[ROWS-1].some(x=>x!==null)){newBoard();message='Bubbels bereiken de lijn · nieuw veld, je kennis blijft bewaard'}finishShot(message)}
-function finishShot(message){$('boardStatus').textContent=message;$('score').textContent=score+' punten';stats().best=Math.max(stats().best,score);save();if(shotsRemaining>0){pickGun();ready=true;$('boardStatus').textContent=message+' · nog '+shotsRemaining+' schoten';return}ready=false;nextQuestionTimer=setTimeout(()=>{if(!$('play').hidden&&!$('scoreDialog').open)next()},650)}
+function shoot(){if(!ready||flying||shotsRemaining<1)return;ready=false;shotsRemaining--;renderPowers();$('shotsBadge').textContent=shotsRemaining+' '+(shotsRemaining===1?'schot':'schoten')+' over';flying={x:launcher.x,y:launcher.y,vx:Math.cos(angle)*510,vy:Math.sin(angle)*510,color:gun};$('boardStatus').textContent='Daar gaat je bubbel!'}
+function settle(){const f=flying;flying=null;let cells=[];for(let r=0;r<ROWS;r++)for(let c=0;c<COLS;c++)if(grid[r][c]===null&&(r===0||neighbours(r,c).some(([rr,cc])=>grid[rr][cc]!==null))){let p=pos(r,c);cells.push({r,c,d:Math.hypot(p.x-f.x,p.y-f.y)})}cells.sort((a,b)=>a.d-b.d);const cell=cells[0];if(!cell){finishShot('Nieuw veld · je blijft oefenen');newBoard();return}grid[cell.r][cell.c]=f.color;const group=[],seen=new Set(),todo=[[cell.r,cell.c]];while(todo.length){let [r,c]=todo.pop(),key=r+','+c;if(seen.has(key)||grid[r][c]!==f.color)continue;seen.add(key);group.push([r,c]);todo.push(...neighbours(r,c))}let popped=0;if(group.length>=3){popped=popBubbles(group);score+=popped*10}shots++;let message=popped?`${popped} bubbels gepopt · +${popped*10} punten`:'Je bubbel zit vast · maak een groep van drie';if(grid.flat().every(x=>x===null)){level++;newBoard();message='Veld leeg! Op naar level '+level}else if(shots%5===0){if(grid[ROWS-1].some(x=>x!==null)){newBoard();message='Het veld was vol · een frisse start'}else{grid.pop();grid.unshift(Array.from({length:COLS},()=>Math.floor(Math.random()*4)));message+=' · nieuwe rij'}}if(grid[ROWS-1].some(x=>x!==null)){newBoard();message='Bubbels bereiken de lijn · nieuw veld, je kennis blijft bewaard'}finishShot(message)}
+function popBubbles(cells){
+  let popped=0;
+  for(const [r,c] of cells){if(grid[r][c]===null)continue;burst(r,c);grid[r][c]=null;popped++}
+  const attached=new Set(),reach=[];
+  for(let c=0;c<COLS;c++)if(grid[0][c]!==null)reach.push([0,c]);
+  while(reach.length){const [r,c]=reach.pop(),key=r+','+c;if(attached.has(key)||grid[r][c]===null)continue;attached.add(key);reach.push(...neighbours(r,c))}
+  for(let r=0;r<ROWS;r++)for(let c=0;c<COLS;c++)if(grid[r][c]!==null&&!attached.has(r+','+c)){burst(r,c);grid[r][c]=null;popped++}
+  return popped;
+}
+function renderPowers(){
+  $('streakMeter').textContent=correctStreak?'Reeks: '+correctStreak+' goed · nog '+(3-correctStreak%3)+' voor de volgende kleurknaller':'3 goede antwoorden op rij = een kleurknaller';
+  const usable=phase==='shooting'&&ready&&!flying&&!$('scoreDialog').open&&!$('play').hidden;
+  $('colorPower').textContent='✦ Kleurknaller · '+powers.color;$('colorPower').disabled=!usable||!powers.color;
+  $('rowPower').textContent='↔ Rijveger · '+powers.row;$('rowPower').disabled=!usable||!powers.row;
+}
+function usePower(type){
+  if(phase!=='shooting'||!ready||flying||!$('questionpanel').hidden||$('scoreDialog').open||!powers[type])return;
+  const cells=LeerpopRules.powerTargets(grid,type,gun);if(!cells.length)return;
+  powers[type]--;const popped=popBubbles(cells);score+=popped*10;
+  let message=(type==='color'?'Kleurknaller':'Rijveger')+': '+popped+' bubbels weg · +'+popped*10+' punten';
+  if(grid.flat().every(x=>x===null)){level++;newBoard();message+=' · op naar level '+level}
+  pickGun();stats().best=Math.max(stats().best,score);save();$('score').textContent=score+' punten';
+  $('boardStatus').textContent=message;$('powerNotice').textContent=message;renderPowers();
+}
+function finishShot(message){$('boardStatus').textContent=message;$('score').textContent=score+' punten';stats().best=Math.max(stats().best,score);save();if(shotsRemaining>0){pickGun();ready=true;$('boardStatus').textContent=message+' · nog '+shotsRemaining+' schoten';renderPowers();return}ready=false;renderPowers();nextQuestionTimer=setTimeout(()=>{if(!$('play').hidden&&!$('scoreDialog').open)next()},650)}
 function burst(r,c){let p=pos(r,c);for(let i=0;i<7;i++)particles.push({x:p.x,y:p.y,vx:(Math.random()-.5)*150,vy:(Math.random()-.5)*150,life:.6,color:colors[grid[r][c]]})}
 function bubble(x,y,c,r=R){ctx.fillStyle=colors[c];ctx.strokeStyle=strokes[c];ctx.lineWidth=1.2;ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.fill();ctx.stroke();ctx.fillStyle='#ffffff80';ctx.beginPath();ctx.ellipse(x-r*.27,y-r*.35,r*.3,r*.17,-.5,0,Math.PI*2);ctx.fill();ctx.fillStyle=strokes[c];ctx.font=`${r}px system-ui`;ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(symbols[c],x,y+2)}
 function draw(time){let dt=Math.min((time-lastTime)/1000,.025)||.016;lastTime=time;ctx.clearRect(0,0,480,570);if(course){if(flying&&!$('scoreDialog').open&&!$('play').hidden){flying.x+=flying.vx*dt;flying.y+=flying.vy*dt;if(flying.x<R){flying.x=R;flying.vx=Math.abs(flying.vx)}if(flying.x>480-R){flying.x=480-R;flying.vx=-Math.abs(flying.vx)}let collision=flying.y<=R+10;for(let r=0;r<ROWS&&!collision;r++)for(let c=0;c<COLS;c++)if(grid[r][c]!==null){let p=pos(r,c);if(Math.hypot(p.x-flying.x,p.y-flying.y)<=R*2){collision=true;break}}if(collision)settle()}for(let r=0;r<ROWS;r++)for(let c=0;c<COLS;c++)if(grid[r]?.[c]!==null&&grid[r]?.[c]!==undefined){let p=pos(r,c);bubble(p.x,p.y,grid[r][c])}ctx.strokeStyle='#b991a0';ctx.setLineDash([5,7]);ctx.beginPath();ctx.moveTo(10,450);ctx.lineTo(470,450);ctx.stroke();ctx.setLineDash([]);ctx.fillStyle='#765363';ctx.font='10px system-ui';ctx.textAlign='left';ctx.fillText('HOUD DE BUBBELS BOVEN DEZE LIJN',14,463);if(ready){angle=-Math.PI/2+Math.sin(time/650)*.82;ctx.strokeStyle=strokes[gun];ctx.lineWidth=2;ctx.setLineDash([3,8]);ctx.beginPath();ctx.moveTo(launcher.x,launcher.y);ctx.lineTo(launcher.x+Math.cos(angle)*180,launcher.y+Math.sin(angle)*180);ctx.stroke();ctx.setLineDash([])}ctx.fillStyle='#e8dde8';ctx.beginPath();ctx.arc(launcher.x,launcher.y,33,0,Math.PI*2);ctx.fill();bubble(launcher.x,launcher.y,gun);if(flying)bubble(flying.x,flying.y,flying.color);particles=particles.filter(p=>p.life>0);for(const p of particles){p.life-=dt;p.x+=p.vx*dt;p.y+=p.vy*dt;ctx.globalAlpha=Math.max(0,p.life/.6);ctx.fillStyle=p.color;ctx.beginPath();ctx.arc(p.x,p.y,5,0,Math.PI*2);ctx.fill()}ctx.globalAlpha=1}requestAnimationFrame(draw)}
 function point(e){let r=canvas.getBoundingClientRect();return{x:(e.clientX-r.left)*480/r.width,y:(e.clientY-r.top)*570/r.height}}
-canvas.addEventListener('pointerdown',()=>shoot());canvas.addEventListener('keydown',e=>{if(e.key===' ') {e.preventDefault();shoot()}});$('next').onclick=()=>{if(phase==='start'){phase='shooting';$('questionpanel').hidden=true;ready=true;$('shotsBadge').textContent='3 schoten over';$('boardStatus').textContent='Klik wanneer de richtlijn goed staat';canvas.focus()}else next()};$('back').onclick=finishGame;$('brand').onclick=e=>{e.preventDefault();if(bank){if(!$('play').hidden)finishGame();else home()}};for(let id of ['module','review'])$(id).onchange=()=>{refill();next()};
+canvas.addEventListener('pointerdown',()=>shoot());canvas.addEventListener('keydown',e=>{if(e.key===' ') {e.preventDefault();shoot()}});$('next').onclick=()=>{
+  if(phase==='start'){phase='shooting';$('questionpanel').hidden=true;ready=true;$('shotsBadge').textContent='3 schoten over';$('boardStatus').textContent='Klik wanneer de richtlijn goed staat · specials kun je nu gebruiken';canvas.focus();renderPowers()}
+  else if(phase==='complete'){$('module').value='';refill(true);next()}
+  else next();
+};
+$('back').onclick=finishGame;$('brand').onclick=e=>{e.preventDefault();if(bank){if(!$('play').hidden)finishGame();else home()}};
+$('module').onchange=()=>{refill(true);next()};
+$('review').onchange=()=>{$('module').value='';refill(true);next()};
+$('challenge').onchange=()=>{if(current&&!locked)roundSeen.delete(current.id);refill();next()};
+$('colorPower').onclick=()=>usePower('color');$('rowPower').onclick=()=>usePower('row');
+
 Promise.resolve({ok:true,json:()=>Promise.resolve({
   "sustainability": [
     {
@@ -266,32 +400,6 @@ Promise.resolve({ok:true,json:()=>Promise.resolve({
       ],
       "answer": 0,
       "explanation": "Het raamwerk beschrijft kritische processen voor de stabiliteit van de aarde.",
-      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
-    },
-    {
-      "id": "sustainability-6",
-      "module": 2,
-      "q": "Welke sfeer omvat al het leven op aarde?",
-      "options": [
-        "Biosfeer",
-        "Lithosfeer",
-        "Atmosfeer"
-      ],
-      "answer": 0,
-      "explanation": "De biosfeer omvat organismen en ecosystemen; de lithosfeer is de vaste buitenlaag van de aarde.",
-      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
-    },
-    {
-      "id": "sustainability-7",
-      "module": 2,
-      "q": "Wat omvat de hydrosfeer?",
-      "options": [
-        "Het water op aarde in zijn verschillende vormen",
-        "Alleen de luchtlaag rondom de aarde",
-        "Alleen gesteenten en aardkorst"
-      ],
-      "answer": 0,
-      "explanation": "De hydrosfeer omvat onder andere oceanen, ijs en grondwater.",
       "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
     },
     {
@@ -657,6 +765,528 @@ Promise.resolve({ok:true,json:()=>Promise.resolve({
       "answer": 0,
       "explanation": "Hefbomen kunnen bijvoorbeeld liggen in regels, informatie of prikkels.",
       "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-new-systeemgrens-keten",
+      "module": 1,
+      "q": "Een producent rekent alleen het energiegebruik in zijn eigen fabriek mee. Welke belangrijke beperking heeft die systeemgrens?",
+      "options": [
+        "Gevolgen bij grondstofwinning, transport, gebruik en afdanking kunnen buiten beeld blijven",
+        "De invloed van de eigen fabriek is daardoor automatisch groter dan alle andere effecten",
+        "Een kleinere systeemgrens voorkomt dat milieuschade naar leveranciers verschuift"
+      ],
+      "answer": 0,
+      "explanation": "Je systeemgrens bepaalt welke relaties en gevolgen je ziet. Een ketenblik helpt voorkomen dat je problemen buiten de fabriek mist.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "basic"
+    },
+    {
+      "id": "sustainability-new-planetaire-risicos",
+      "module": 2,
+      "q": "Wat betekent het overschrijden van een planetaire grens voor een duurzaamheidsanalyse?",
+      "options": [
+        "Het risico op verstoring van het aardsysteem neemt toe; je moet druk en samenhang onderzoeken",
+        "Elke lokale activiteit veroorzaakt vanaf dat moment direct een onomkeerbare ramp",
+        "De ecologische gevolgen kunnen volledig worden gecompenseerd met economische groei"
+      ],
+      "answer": 0,
+      "explanation": "Planetaire grenzen geven veilige ecologische speelruimte aan. Overschrijding vergroot risico’s; het model voorspelt niet voor iedere lokale ingreep één vast gevolg.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "basic"
+    },
+    {
+      "id": "sustainability-new-planetaire-samenhang",
+      "module": 2,
+      "q": "Een maatregel verlaagt CO₂-uitstoot maar veroorzaakt verlies van natuurgebied. Wat moet je beoordelen?",
+      "options": [
+        "De effecten op meerdere planetaire grenzen, waaronder klimaat en biodiversiteit",
+        "Alleen de CO₂-winst, omdat andere grenzen daardoor vanzelf verbeteren",
+        "Alleen het financiële rendement, omdat ecologische grenzen onderling uitwisselbaar zijn"
+      ],
+      "answer": 0,
+      "explanation": "De planetaire grenzen hangen samen. Een maatregel moet je breder beoordelen dan op één gunstige indicator.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "basic"
+    },
+    {
+      "id": "sustainability-new-planetaire-besluit",
+      "module": 2,
+      "q": "Waarom hoort het model van planetaire grenzen bij economische besluitvorming?",
+      "options": [
+        "Economie en samenleving zijn afhankelijk van stabiele natuurlijke systemen",
+        "Het model berekent de maximale winst per bedrijf",
+        "Het model vervangt sociale en economische afwegingen door één milieuscore"
+      ],
+      "answer": 0,
+      "explanation": "Ecologische grenzen vormen het fundament waarbinnen economische en sociale ontwikkeling mogelijk blijft. Ze vervangen andere afwegingen niet.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "basic"
+    },
+    {
+      "id": "sustainability-new-repair-waardebehoud",
+      "module": 3,
+      "q": "Een laptop werkt weer na vervanging van de accu. Welke circulaire strategie pas je toe?",
+      "options": [
+        "Repair: het bestaande product herstellen en in gebruik houden",
+        "Recycle: het hele product verwerken tot losse grondstoffen",
+        "Refuse: voorkomen dat het product ooit wordt aangeschaft"
+      ],
+      "answer": 0,
+      "explanation": "Repair verlengt de levensduur van het product. Bij recycling wordt het product juist afgebroken om materiaal terug te winnen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "basic"
+    },
+    {
+      "id": "sustainability-new-service-prikkel",
+      "module": 3,
+      "q": "Waarom kan eigenaarschap bij een Product-as-a-Service-aanbieder een andere ontwerpprikkel geven?",
+      "options": [
+        "De aanbieder kan voordeel hebben van onderhoud, reparatie en een lange levensduur",
+        "De gebruiker neemt automatisch de verantwoordelijkheid voor afdanking over",
+        "Een gebruikscontract maakt terugname en materiaalgebruik overbodig"
+      ],
+      "answer": 0,
+      "explanation": "Wanneer de aanbieder eigenaar blijft, kunnen levensduur en onderhoud aantrekkelijker worden. Dat vraagt wel passende afspraken en uitvoering.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "basic"
+    },
+    {
+      "id": "sustainability-new-koolstofbudget",
+      "module": 4,
+      "q": "Waarom maakt het koolstofbudget uitstel van emissiereductie lastig?",
+      "options": [
+        "Voortgaande uitstoot gebruikt een deel van de resterende ruimte voor een temperatuurdoel",
+        "Het budget wordt elk jaar opnieuw volledig beschikbaar",
+        "Het budget gaat uitsluitend over de uitstoot van elektriciteitscentrales"
+      ],
+      "answer": 0,
+      "explanation": "Het koolstofbudget koppelt cumulatieve CO₂-uitstoot aan een temperatuurdoel. Uitstoot nu verkleint de resterende ruimte.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "basic"
+    },
+    {
+      "id": "sustainability-new-netvraagsturing",
+      "module": 4,
+      "q": "Welke ingreep kan netcongestie verminderen zonder uitsluitend dikkere kabels aan te leggen?",
+      "options": [
+        "De vraag verschuiven, pieken dempen en opslag afstemmen op lokaal aanbod",
+        "Alle elektrische apparaten op hetzelfde goedkope tijdstip laten starten",
+        "Meer vermogen aansluiten zonder naar de bestaande netcapaciteit te kijken"
+      ],
+      "answer": 0,
+      "explanation": "Netcongestie gaat om transportcapaciteit en pieken. Vraagsturing en opslag kunnen vraag en aanbod beter afstemmen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "basic"
+    },
+    {
+      "id": "sustainability-new-kapitalen-opleiding",
+      "module": 5,
+      "q": "Een bedrijf investeert in opleiding van reparateurs en samenwerking met lokale leveranciers. Welke waarde wordt rechtstreeks versterkt?",
+      "options": [
+        "Menselijk kapitaal én sociaal en relationeel kapitaal",
+        "Alleen geproduceerd kapitaal, omdat alle investeringen fysiek bezit opleveren",
+        "Alleen natuurlijk kapitaal, omdat opleiding over reparatie gaat"
+      ],
+      "answer": 0,
+      "explanation": "Vaardigheden en kennis van medewerkers zijn menselijk kapitaal. Vertrouwen en samenwerking in de keten zijn sociaal en relationeel kapitaal.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "basic"
+    },
+    {
+      "id": "sustainability-new-materialiteit-water",
+      "module": 5,
+      "q": "Een bedrijf vervuilt water. Droogte kan daarnaast zijn productie stilleggen. Hoe passen deze twee effecten in dubbele materialiteit?",
+      "options": [
+        "Vervuiling is inside-out; het productierisico door droogte is outside-in",
+        "Beide zijn uitsluitend inside-out, omdat water een milieuthema is",
+        "Beide zijn uitsluitend outside-in, omdat het om een bedrijf gaat"
+      ],
+      "answer": 0,
+      "explanation": "Inside-out onderzoekt de impact van het bedrijf op mens en milieu. Outside-in onderzoekt hoe duurzaamheidsissues de organisatie raken.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "basic"
+    },
+    {
+      "id": "sustainability-new-biomimicry-functie",
+      "module": 6,
+      "q": "Een gebouw gebruikt ventilatieprincipes uit termietenheuvels. Wat maakt dit biomimicry?",
+      "options": [
+        "Een natuurlijke strategie wordt vertaald naar de functie van het ontwerp",
+        "Het gebouw krijgt alleen dezelfde kleur als een termietenheuvel",
+        "Het ontwerp is automatisch duurzaam omdat het op een dier lijkt"
+      ],
+      "answer": 0,
+      "explanation": "Biomimicry gaat om leren van natuurlijke strategieën en functies. Een natuurlijke uitstraling is op zichzelf onvoldoende.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "basic"
+    },
+    {
+      "id": "sustainability-new-regeneratief-ontwerp",
+      "module": 6,
+      "q": "Welke ontwerpambitie gaat verder dan minder milieuschade veroorzaken?",
+      "options": [
+        "Actief bijdragen aan herstel van ecosystemen en vergroten van biodiversiteit",
+        "Alleen een efficiënter productieproces ontwerpen met dezelfde restschade",
+        "Alleen afval compenseren buiten de eigen productieketen"
+      ],
+      "answer": 0,
+      "explanation": "Regeneratief ontwerp richt zich op herstel en positieve bijdrage aan levende systemen, naast het beperken van schade.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "basic"
+    },
+    {
+      "id": "sustainability-new-lockin-recycling",
+      "module": 7,
+      "q": "Goedkoop nieuw plastic verdringt recyclaat. Recyclers investeren minder, waardoor recycling duur blijft. Wat onderzoek je met systeemdenken?",
+      "options": [
+        "Een versterkende lus die afhankelijkheid van nieuw plastic in stand kan houden",
+        "Een losse prijsverandering zonder gevolgen voor investeringen",
+        "Een automatisch stabiel evenwicht waarin meer afval vanzelf tot meer recycling leidt"
+      ],
+      "answer": 0,
+      "explanation": "Prijs, vraag, investeringen en schaal beïnvloeden elkaar. Zulke structuren kunnen een lock-in in stand houden.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "basic"
+    },
+    {
+      "id": "sustainability-new-wicked-aanpak",
+      "module": 7,
+      "q": "Welke aanpak past bij een wicked problem?",
+      "options": [
+        "Verschillende perspectieven onderzoeken, ingrepen uitproberen en bijstellen op systeemgevolgen",
+        "Eerst één definitieve probleemdefinitie vastleggen en die nooit meer aanpassen",
+        "Alle belangen terugbrengen tot één technische berekening"
+      ],
+      "answer": 0,
+      "explanation": "Bij wicked problems botsen belangen en verandert het probleem door ingrepen. Leren, samenwerken en bijstellen zijn daarom belangrijk.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "basic"
+    },
+    {
+      "id": "sustainability-new-roetz-groei",
+      "module": 8,
+      "q": "Een circulaire fietsenmaker wil groeien zonder hergebruik en sociale werkgelegenheid te verliezen. Wat is een passende afweging?",
+      "options": [
+        "Groeimodellen vergelijken op economische, ecologische én sociale gevolgen",
+        "Alleen kiezen voor de optie met de hoogste maandelijkse omzet",
+        "De materiaalstromen pas onderzoeken nadat de groei is gerealiseerd"
+      ],
+      "answer": 0,
+      "explanation": "De Roetz-casus laat zien dat opschalen een trade-off kan geven tussen groei, circulaire standaarden en sociale waarde.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "basic"
+    },
+    {
+      "id": "sustainability-new-stakeholder-net",
+      "module": 8,
+      "q": "Waarom betrek je bij een netcongestieoplossing ook bewoners, bedrijven en de netbeheerder?",
+      "options": [
+        "De keuze verdeelt kosten, toegang, ruimtegebruik en risico’s over verschillende partijen",
+        "Alle partijen hebben precies hetzelfde belang en dezelfde invloed",
+        "Technische capaciteit wordt automatisch groter wanneer meer partijen deelnemen"
+      ],
+      "answer": 0,
+      "explanation": "Een stakeholderanalyse maakt zichtbaar wie wordt geraakt en welke belangen en invloed moeten worden meegenomen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "basic"
+    },
+    {
+      "id": "sustainability-new-lca-afwenteling",
+      "module": 9,
+      "q": "Waarom kan alleen kijken naar de gebruiksfase een onvolledige duurzaamheidskeuze opleveren?",
+      "options": [
+        "Een verbetering tijdens gebruik kan samengaan met meer impact bij productie of afdanking",
+        "Impact bij productie verdwijnt zodra een product wordt gebruikt",
+        "Alle levensfasen hebben altijd evenveel milieu-impact"
+      ],
+      "answer": 0,
+      "explanation": "Een LCA bekijkt de hele levenscyclus en helpt verschuiving van impact tussen fasen zichtbaar maken.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "basic"
+    },
+    {
+      "id": "sustainability-new-hefboom-prikkels",
+      "module": 9,
+      "q": "Een recyclingcampagne levert weinig op zolang nieuw materiaal goedkoper blijft. Welke systeemhefboom is relevant?",
+      "options": [
+        "De economische prikkels en inkoopafspraken onderzoeken die de materiaalkeuze sturen",
+        "Dezelfde campagne vaker herhalen zonder de onderliggende structuur te veranderen",
+        "De systeemgrens verkleinen zodat de materiaalprijzen buiten de analyse vallen"
+      ],
+      "answer": 0,
+      "explanation": "Een hefboom grijpt in op structuren zoals regels, informatie en prikkels. Zo kun je meer beïnvloeden dan alleen een symptoom.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "basic"
+    },
+    {
+      "id": "sustainability-hard-verplaatsing",
+      "module": 1,
+      "q": "Een fabriek bespaart energie door productie uit te besteden. Haar eigen uitstoot daalt, maar ketentransport neemt toe en arbeidsomstandigheden verslechteren. Welke conclusie is het best onderbouwd?",
+      "options": [
+        "Met deze systeemgrens is geen brede duurzaamheidswinst aangetoond; analyseer de keten en alle drie dimensies",
+        "De lagere fabrieksuitstoot bewijst duurzame vooruitgang, ook zonder ketengegevens",
+        "De sociale gevolgen horen buiten de analyse omdat energie de aanleiding was",
+        "De hogere transportuitstoot bewijst dat uitbesteden in iedere situatie onduurzaam is"
+      ],
+      "answer": 0,
+      "explanation": "Een lokale verbetering kan druk naar andere plaatsen of waarden verschuiven. Systeemdenken vraagt een ketenblik en aandacht voor people, planet en profit.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sustainability-hard-terugkoppeling",
+      "module": 1,
+      "q": "Een bedrijf verdient meer door goedkopere grondstoffen en groeit daardoor, maar die groei verhoogt de totale grondstofvraag. Welke analyse sluit aan bij systeemdenken?",
+      "options": [
+        "Onderzoek de terugkoppeling tussen kosten, groei en totale materiaalvraag, inclusief effecten over tijd",
+        "Beoordeel uitsluitend de lagere grondstofkosten per product als resultaat",
+        "Tel alleen de voorraad grondstoffen van vandaag en laat toekomstige groei buiten beeld",
+        "Stel dat economische groei en grondstofgebruik altijd onafhankelijk zijn"
+      ],
+      "answer": 0,
+      "explanation": "De relaties tussen kosten, groei en materiaalvraag kunnen een versterkende dynamiek vormen. Per-productefficiëntie beschrijft niet vanzelf de totale impact.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sustainability-hard-klimaat-biodiversiteit",
+      "module": 2,
+      "q": "Een producent wil CO₂ reduceren door een groot natuurgebied te vervangen door een energieplantage. Welke beoordeling past het best bij planetaire grenzen?",
+      "options": [
+        "Weeg klimaatwinst af tegen druk op biodiversiteit en landgebruik; één grens verbeteren garandeert geen systeemwinst",
+        "Accepteer het plan zodra de CO₂-balans positief is, omdat klimaat alle andere grenzen omvat",
+        "Vergelijk alleen de opbrengst per hectare en laat de samenhang tussen grenzen weg",
+        "Verwerp alle energieplantages zonder de plaatselijke gevolgen te onderzoeken"
+      ],
+      "answer": 0,
+      "explanation": "Het raamwerk vraagt aandacht voor verschillende samenhangende processen. Klimaatwinst kan gepaard gaan met verlies aan biodiversiteit en veranderingen in landgebruik.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sustainability-hard-drukverplaatsing",
+      "module": 2,
+      "q": "Een regio verlaagt haar stikstofoverschot door mest naar een andere regio te vervoeren. Welke aanvullende vraag is noodzakelijk?",
+      "options": [
+        "Neemt de totale druk op ecosystemen af, of wordt de verstoring van nutriëntenkringlopen vooral verplaatst?",
+        "Is de administratie van het transport goedkoper dan lokale verwerking?",
+        "Daalt de lokale hoeveelheid, zodat gevolgen in de ontvangende regio niet meer relevant zijn?",
+        "Kan het transport worden uitgesloten van iedere systeemgrens?"
+      ],
+      "answer": 0,
+      "explanation": "Een daling binnen een regio is onvoldoende om totale verbetering aan te tonen. Systeemdenken onderzoekt de ontvangende regio en de kringloop als geheel.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sustainability-hard-repareren-recyclen",
+      "module": 3,
+      "q": "Een leverancier kan gebruikte bureaustoelen na herstel nog jaren inzetten, of meteen vermalen voor materiaalterugwinning. Wat is de sterkste eerste reden om herstel te onderzoeken?",
+      "options": [
+        "Herstel kan productwaarde en gebruiksfunctie behouden en nieuwe productie voorkomen; toets daarna de daadwerkelijke effecten",
+        "Materiaalterugwinning is altijd de hoogste R-strategie doordat elk materiaal wordt gescheiden",
+        "Een tweede gebruiksperiode telt niet als circulariteit wanneer onderdelen worden vervangen",
+        "Hergebruik is altijd milieuvriendelijker, ongeacht veiligheid, levensduur of energiegebruik"
+      ],
+      "answer": 0,
+      "explanation": "Hogere R-strategieën behouden doorgaans meer productwaarde. De voorkeursvolgorde blijft een hulpmiddel: de werkelijke levenscyclus en gebruiksfunctie moet je toetsen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sustainability-hard-service-systeem",
+      "module": 3,
+      "q": "Een leaseaanbieder blijft eigenaar, maar vervangt apparaten elk jaar en heeft geen terugnamesysteem. Welke conclusie klopt?",
+      "options": [
+        "Het eigendomsmodel biedt kansen, maar zonder levensduurverlenging en terugname is circulariteit niet aangetoond",
+        "Eigenaarschap bij de aanbieder maakt elke vervangingsfrequentie circulair",
+        "Een leasecontract maakt ontwerp voor reparatie en ketensamenwerking overbodig",
+        "Product-as-a-Service kan nooit samengaan met een circulair model"
+      ],
+      "answer": 0,
+      "explanation": "Een businessmodel verandert prikkels; de uitvoering bepaalt of waarde behouden blijft. Ontwerp, onderhoud, gebruiksduur en terugname horen bij die beoordeling.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sustainability-hard-elektrificatie",
+      "module": 4,
+      "q": "Een bedrijventerrein elektrificeert processen om uitstoot te verlagen. Alle installaties starten tegelijk en het net raakt overbelast. Welke systeembenadering past?",
+      "options": [
+        "Combineer elektrificatie met afstemming van pieken, opslag en netcapaciteit; analyseer techniek, gedrag en regels samen",
+        "Stop alle emissiereductie, omdat een netprobleem bewijst dat elektrificatie geen klimaatwaarde heeft",
+        "Beoordeel alleen het jaarlijkse energieverbruik en laat transportpieken weg",
+        "Sluit meer vermogen aan zonder afspraken, omdat duurzame elektriciteit geen netruimte gebruikt"
+      ],
+      "answer": 0,
+      "explanation": "Emissiereductie en netcapaciteit zijn verschillende vraagstukken die samenkomen. De e-learning noemt vraagsturing, opslag, infrastructuur en prikkels als samenhangende onderdelen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sustainability-hard-mitigatie-adaptatie",
+      "module": 4,
+      "q": "Een gemeente plant schaduwrijke bomen tegen hitte en vervangt daarnaast fossiele verwarming. Welke combinatie beschrijft de primaire doelen?",
+      "options": [
+        "De schaduwmaatregel is adaptatie; het beperken van fossiele uitstoot is mitigatie",
+        "Beide zijn uitsluitend mitigatie omdat alle klimaatmaatregelen de oorzaak wegnemen",
+        "Beide zijn uitsluitend adaptatie omdat ze op gemeentelijk niveau plaatsvinden",
+        "Adaptatie is pas relevant nadat alle uitstoot is verdwenen"
+      ],
+      "answer": 0,
+      "explanation": "Adaptatie beperkt kwetsbaarheid voor gevolgen; mitigatie vermindert oorzaken. Beide kunnen tegelijk nodig zijn en sommige maatregelen hebben meerdere effecten.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sustainability-hard-dubbel-perspectief",
+      "module": 5,
+      "q": "Een fabriek schaadt omwonenden met emissies. Strengere milieuvoorwaarden kunnen tegelijk investeringen en productiekosten beïnvloeden. Hoe onderscheid je de materialiteitsperspectieven?",
+      "options": [
+        "Schade door emissies is inside-out; effecten van milieuvoorwaarden op de fabriek zijn outside-in",
+        "Beide zijn outside-in omdat financiële kosten zichtbaar zijn",
+        "Beide zijn inside-out omdat emissies het vertrekpunt vormen",
+        "De schade is niet relevant zolang de fabriek financieel gezond blijft"
+      ],
+      "answer": 0,
+      "explanation": "Dubbele materialiteit combineert impact op mens en milieu met risico’s en kansen voor de organisatie. Het ene perspectief vervangt het andere niet.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sustainability-hard-kapitaal-tradeoff",
+      "module": 5,
+      "q": "Een organisatie verhoogt winst door opleidingen en onderhoud te schrappen. Wat maakt een geïntegreerde waardeanalyse zichtbaar?",
+      "options": [
+        "Een toename van financieel kapitaal kan samengaan met afname van menselijk en geproduceerd kapitaal en latere risico’s",
+        "Elke winststijging betekent dat alle zes kapitalen in gelijke mate groeien",
+        "Opleiding is uitsluitend een financiële kostenpost en heeft geen andere waarde",
+        "De zes kapitalen maken afwegingen tussen korte en lange termijn overbodig"
+      ],
+      "answer": 0,
+      "explanation": "Het Integrated Reporting Framework onderzoekt samenhang en veranderingen tussen kapitalen. Geldwinst kan gepaard gaan met verlies van vaardigheden of fysieke kwaliteit.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sustainability-hard-lotus-chemie",
+      "module": 6,
+      "q": "Een zelfreinigend oppervlak bootst het lotusblad na, maar de coating bevat schadelijke stoffen en is moeilijk te verwerken. Welke conclusie past?",
+      "options": [
+        "De functie is geïnspireerd op de natuur, maar beoordeel ook Life-Friendly Chemistry en de levenscyclus",
+        "De natuurlijke inspiratie bewijst dat de coating veilig en circulair is",
+        "Alleen de gelijkenis met een lotusblad telt voor de duurzaamheidstoets",
+        "Zelfreinigende functies zijn per definitie onverenigbaar met biomimicry"
+      ],
+      "answer": 0,
+      "explanation": "Biomimicry vraagt meer dan een functie nabootsen. Natuurprincipes zoals veilige chemie en kringlopen helpen de gevolgen van het gehele ontwerp toetsen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sustainability-hard-regeneratie",
+      "module": 6,
+      "q": "Een paviljoen gebruikt minder energie. Een ander ontwerp helpt daarnaast bodem en biodiversiteit herstellen. Welk onderscheid is relevant?",
+      "options": [
+        "Het eerste beperkt negatieve impact; het tweede heeft daarnaast een regeneratieve ambitie die je moet aantonen",
+        "Beide zijn regeneratief zodra hun bouwkosten lager zijn",
+        "Regeneratief ontwerp betekent uitsluitend meer energie produceren dan verbruiken",
+        "Herstel van ecosystemen valt buiten ontwerp omdat alleen materiaal telt"
+      ],
+      "answer": 0,
+      "explanation": "Regeneratief ontwerp richt zich op actieve verbetering van levende systemen. Een ambitie is nog geen bewijs: de herstelbijdrage moet zichtbaar worden.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sustainability-hard-recycling-lus",
+      "module": 7,
+      "q": "Lage vraag naar recyclaat remt investeringen; beperkte schaal houdt de prijs hoog, waardoor vraag laag blijft. Waar kan een systeemhefboom liggen?",
+      "options": [
+        "Bij samenhangende inkoopafspraken en prikkels die vraag en investeringen door de versterkende lus heen helpen",
+        "Alleen bij harder communiceren, terwijl prijzen en inkoopregels buiten beeld blijven",
+        "Bij het verder verkleinen van schaal om de hoge prijs te bevestigen",
+        "Bij de aanname dat alle partijen vanzelf hetzelfde belang hebben"
+      ],
+      "answer": 0,
+      "explanation": "De lus koppelt vraag, schaal, investering en prijs. Een structurele ingreep kan de relaties veranderen in plaats van één symptoom te behandelen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sustainability-hard-balancerend",
+      "module": 7,
+      "q": "Als energiegebruik stijgt, stijgen kosten. Daardoor besluiten gebruikers minder energie af te nemen, wat de stijging dempt. Welke lus is dit?",
+      "options": [
+        "Een balancerende lus: een verandering roept een tegenreactie op die haar afremt",
+        "Een versterkende lus: hogere kosten leiden in de casus juist tot meer gebruik",
+        "Geen terugkoppeling, omdat er economische variabelen in zitten",
+        "Een moreel goede lus, omdat balancerend een waardeoordeel betekent"
+      ],
+      "answer": 0,
+      "explanation": "De richting van de terugwerking bepaalt het type lus. Balancerend beschrijft afremming of stabilisatie, geen moreel oordeel over de uitkomst.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sustainability-hard-roetz-governance",
+      "module": 8,
+      "q": "Een Roetz-achtige fietsenmaker overweegt franchising. Meer omzet is mogelijk, maar controle over hergebruik en sociale werkgelegenheid kan afnemen. Welke beslissing past bij systeemdenken?",
+      "options": [
+        "Vergelijk groeiopties op materiaalstromen, kwaliteit en sociale waarde, en borg standaarden in ketenafspraken",
+        "Kies de snelste groei en toets circulaire standaarden pas nadat afhankelijkheden vastliggen",
+        "Beperk de afweging tot het rendement van de franchisecontracten",
+        "Stel dat regionale partners vanzelf dezelfde circulaire en sociale doelen hebben"
+      ],
+      "answer": 0,
+      "explanation": "De casus vraagt om mission-aligned groei: ketenpartners, ontwerp en governance helpen meerdere waarden behouden bij opschalen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sustainability-hard-netverdeling",
+      "module": 8,
+      "q": "Een wijk lost piekbelasting op met hogere tarieven tijdens drukke uren. Sommige bewoners kunnen hun verbruik nauwelijks verschuiven. Wat hoort bij de strategische analyse?",
+      "options": [
+        "Onderzoek zowel piekreductie als verdeling van kosten en handelingsruimte, en vergelijk aanvullende maatregelen",
+        "Noem de keuze geslaagd zodra de totale piek daalt, ongeacht verdeling van lasten",
+        "Laat bewoners buiten de analyse omdat de oplossing een technische aanleiding heeft",
+        "Neem aan dat iedere gebruiker dezelfde flexibiliteit heeft"
+      ],
+      "answer": 0,
+      "explanation": "Een systeemoplossing heeft technische én sociale effecten. Stakeholderanalyse en meervoudige waardecreatie maken zulke trade-offs zichtbaar.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sustainability-hard-lca-vergelijking",
+      "module": 9,
+      "q": "Je vergelijkt twee verpakkingen: de ene wordt één keer gebruikt, de andere meerdere keren en moet worden gereinigd. Welke vergelijking is het meest zorgvuldig?",
+      "options": [
+        "Vergelijk dezelfde geleverde functie over de levenscyclus, met gebruiksduur, transport, reinigen en afdanking",
+        "Vergelijk uitsluitend het gewicht van de lege verpakkingen",
+        "Vergelijk één verpakking met één verpakking en negeer het aantal gebruiksbeurten",
+        "Kies automatisch het materiaal met de groenste productnaam"
+      ],
+      "answer": 0,
+      "explanation": "Een levenscyclusvergelijking moet een vergelijkbare functie onderzoeken. Aantal gebruiksbeurten en processen zoals reiniging en vervoer kunnen de uitkomst beïnvloeden.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sustainability-hard-model-combinatie",
+      "module": 9,
+      "q": "Een circulair project heeft milieuwinst, maar ketenpartijen investeren niet en klimaatrisico’s raken de organisatie. Welke combinatie van modellen past?",
+      "options": [
+        "Gebruik LCA voor milieu-impact, een systeemkaart of CLD voor relaties en prikkels, en dubbele materialiteit voor impact en bedrijfsrisico’s",
+        "Gebruik alleen LCA om zeggenschap en investeringsprikkels volledig te verklaren",
+        "Gebruik alleen financiële winst om milieu-impact en ketenrelaties vast te stellen",
+        "Gebruik dubbele materialiteit om alle levenscyclusgegevens en terugkoppelingen automatisch te berekenen"
+      ],
+      "answer": 0,
+      "explanation": "De modellen beantwoorden verschillende vragen. Door ze gericht te combineren kun je milieu-impact, systeemdynamiek en materialiteit samen beoordelen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten",
+      "difficulty": "hard"
     }
   ],
   "ethics": [
@@ -984,8 +1614,324 @@ Promise.resolve({ok:true,json:()=>Promise.resolve({
       "answer": 0,
       "explanation": "Greenwashing kan echte investeringen benadelen en vertrouwen in duurzaamheidsclaims schaden.",
       "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m5"
+    },
+    {
+      "id": "ethics-new-curriculum-1-0",
+      "module": 1,
+      "q": "Tijdens de gascrisis van 2022 moesten beleidsmakers bepalen wie voorrang kreeg: industrie, huishoudens of ziekenhuizen. Waarom noemt de module dat geen economische maar een morele vraag?",
+      "options": [
+        "Omdat de rekensom over vraag en aanbod betrekkelijk eenvoudig was; de moeilijkheid zat in de vraag wie er niet zonder mocht komen te zitten.",
+        "Omdat de crisis voortkwam uit geopolitieke spanningen en niet uit marktwerking, waardoor economische modellen hier niet van toepassing waren.",
+        "Omdat overheden in een crisissituatie wettelijk verplicht zijn huishoudens voorrang te geven boven industriële afnemers en kritieke infrastructuur.",
+        "Omdat de beschikbare hoeveelheid gas nauwkeurig bekend was, waardoor er geen ruimte meer overbleef voor afwegingen over prijs en marktverdeling."
+      ],
+      "answer": 0,
+      "explanation": "Friedman zegt: maak winst binnen de regels van het spel. De module draait dat om — dat spel is zelf uit morele keuzes opgebouwd. Wie de regels schrijft, heeft de morele vraag al beantwoord.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m1",
+      "difficulty": "basic"
+    },
+    {
+      "id": "ethics-new-curriculum-1-1",
+      "module": 1,
+      "q": "Na het lezen van de kernconcepten (rechtvaardige verdeling, begrenzing, commons en externaliteiten): welk inzicht vat het beste samen wat deze concepten gezamenlijk duidelijk maken over economische systemen?",
+      "options": [
+        "Dat economische systemen altijd draaien om waardengeladen keuzes over wie toegang krijgt tot middelen, wie kosten draagt en hoe grenzen worden beheerd.",
+        "Dat economische systemen in de kern rekenkundige optimalisatieproblemen zijn, waarin schaarste zo efficiënt mogelijk wordt verdeeld zonder dat daar normatieve keuzes bij komen kijken.",
+        "Dat markten vanzelf naar een evenwicht bewegen zodra individuen hun eigenbelang volgen, waardoor verdelingsvraagstukken zichzelf op termijn oplossen.",
+        "Dat economische problemen vooral ontstaan uit individuele fouten in gedrag of planning, en dat betere voorlichting en scherper toezicht die fouten grotendeels kunnen wegnemen."
+      ],
+      "answer": 0,
+      "explanation": "De vier begrippen wijzen op hetzelfde: er zit altijd een waardeoordeel onder. Wie krijgt wat, hoeveel er beschikbaar is, wat we samen beheren en wie de rekening betaalt — dat zijn keuzes, geen rekensommen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m1",
+      "difficulty": "basic"
+    },
+    {
+      "id": "ethics-hard-curriculum-1-2",
+      "module": 1,
+      "q": "Kobalt uit Congo, Chinese controle over zeldzame aardmetalen en e-waste in Ghana en India staan in de module naast elkaar. Welk patroon delen die drie?",
+      "options": [
+        "De baten en de lasten van dezelfde keten komen bij verschillende landen terecht, en die verdeling volgt de bestaande machtsverhoudingen.",
+        "Ze tonen aan dat de energietransitie op korte termijn meer schade veroorzaakt dan de fossiele economie die zij moet vervangen.",
+        "In alle drie de gevallen ontbreekt lokale regelgeving, waardoor bedrijven zich niet aan internationale milieunormen hoeven te houden.",
+        "Ze laten zien dat schaarste aan grondstoffen onvermijdelijk leidt tot geopolitieke conflicten tussen producerende en afnemende landen."
+      ],
+      "answer": 0,
+      "explanation": "Let op de richting: de waarde stroomt de ene kant op, de schade de andere. Dat is geen technisch gevolg van waar grondstoffen nu eenmaal liggen, maar van wie de voorwaarden bepaalt.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ethics-hard-curriculum-1-4",
+      "module": 1,
+      "q": "Na het lezen van het blok over bezit blijkt dat ongelijkheid niet alleen ontstaat door persoonlijke keuzes, maar door de manier waarop systemen met bezit omgaan. Welk inzicht verwoordt volgens de module het best waarom bezit in kapitalistische systemen zo’n sterke structurele werking heeft?",
+      "options": [
+        "Bezit heeft een cumulatief en zelfversterkend karakter, waardoor wie eenmaal bezit heeft steeds meer economische en politieke invloed verwerft.",
+        "Bezit speelt in moderne economieën vooral een symbolische rol; inkomen uit arbeid bepaalt tegenwoordig veel sterker iemands positie dan het vermogen dat iemand al heeft.",
+        "Bezit beïnvloedt vooral de persoonlijke motivatie om te ondernemen en te investeren, maar heeft weinig effect op de structuur van economieën als geheel.",
+        "Bezit vergroot juist de gelijkheid, omdat iedereen in principe dezelfde mogelijkheid heeft om kapitaal op te bouwen en de markt openstaat voor wie bereid is te sparen."
+      ],
+      "answer": 0,
+      "explanation": "Het sleutelwoord is cumulatief. Wie bezit heeft kan investeren, wie investeert vergaart meer bezit, en wie veel bezit heeft kan de spelregels beïnvloeden. Ongelijkheid hoeft dus niemands bedoeling te zijn — ze volgt uit het ontwerp.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ethics-new-curriculum-2-0",
+      "module": 2,
+      "q": "Waarom vertrouwen mensen in drukke, complexe organisaties zo sterk op routines en vuistregels?",
+      "options": [
+        "Omdat rationeel nadenken kostbaar is en intuïtief handelen efficiënt; onder druk is de vuistregel vaak de enige begaanbare weg.",
+        "Omdat organisaties routines vastleggen in procedures, waardoor het formeel niet is toegestaan om ervan af te wijken.",
+        "Omdat mensen van nature liever geen verantwoordelijkheid dragen voor beslissingen waarvan de uitkomst onzeker is.",
+        "Omdat medewerkers in complexe organisaties zelden voldoende zijn opgeleid om zelfstandig analytische afwegingen te maken."
+      ],
+      "answer": 0,
+      "explanation": "De volgorde is verrassend: we handelen eerst en zoeken de redenering er daarna bij. Dat maakt vuistregels niet dom — ze zijn efficiënt. Het probleem ontstaat pas als er geen moment meer is om ze te toetsen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m2",
+      "difficulty": "basic"
+    },
+    {
+      "id": "ethics-new-curriculum-2-1",
+      "module": 2,
+      "q": "Waarom leidt intuïtief denken binnen complexe systemen vaker tot problematische uitkomsten dan tot evenwichtige besluitvorming?",
+      "options": [
+        "Omdat systemen weinig ruimte laten voor reflectie en correctie.",
+        "Omdat intuïtief denken per definitie irrationeel is.",
+        "Omdat intuïtie sterker is bij mensen met machtsposities.",
+        "Omdat formele regels intuïtieve beslissingen altijd legitimeren."
+      ],
+      "answer": 0,
+      "explanation": "Intuïtie is niet het probleem; het ontbreken van een correctiemoment is dat. In een systeem dat vaart en volume beloont, is er zelden een plek ingebouwd waar iemand hardop kan vragen of het nog klopt.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m2",
+      "difficulty": "basic"
+    },
+    {
+      "id": "ethics-new-curriculum-2-2",
+      "module": 2,
+      "q": "Wat maakt collectieve illusies volgens de theorie zo hardnekkig in groepen?",
+      "options": [
+        "De innerlijke behoefte om erbij te horen weegt zwaarder dan individuele twijfel.",
+        "Collectieve illusies ontstaan vooral doordat de juiste informatie ontbreekt; zodra die beschikbaar komt verdwijnen ze vanzelf.",
+        "Mensen laten hun eigen oordeel volledig varen zodra zij merken dat de groep er anders over denkt.",
+        "Groepen wegen informatie systematisch beter af dan individuen, waardoor een eenmaal genomen besluit zelden nog wordt herzien."
+      ],
+      "answer": 0,
+      "explanation": "Bij pluralistische onwetendheid twijfelt bijna iedereen in stilte, maar spreekt niemand zich uit — waardoor iedereen denkt de enige te zijn. De groep houdt zo een norm in stand die vrijwel niemand echt aanhangt.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m2",
+      "difficulty": "basic"
+    },
+    {
+      "id": "ethics-hard-curriculum-2-4",
+      "module": 2,
+      "q": "Welke verklaring vat het best samen hoe de module de combinatie beschrijft van (1) gedrag dat mensen niet expliciet kiezen en (2) het idee dat aanbod steeds vaker vraag en behoeften vormt?",
+      "options": [
+        "Infrastructuren en platformen maken bepaald gedrag tot de vanzelfsprekende optie, terwijl bedrijven mede vormgeven welke behoeften normaal gaan voelen. Keuzevrijheid wordt zo keuze binnen een voorgevormd kader.",
+        "De oorzaak ligt vooral bij technologie: zodra er nieuwe producten verschijnen verandert gedrag vanzelf mee. Morele vragen zijn daarom een kwestie van regulering achteraf, niet van ontwerp vooraf.",
+        "Mensen kiezen wel degelijk vrij, maar zijn slecht geïnformeerd. Reclame vult dat informatiegebrek op, waardoor gedrag alsnog voortkomt uit voorkeuren die er al lagen; betere voorlichting zou het patroon doorbreken.",
+        "Gedrag wordt vooral gestuurd door individuele zwakte en gemakzucht. Systemen versterken dat hooguit een beetje, maar uiteindelijk blijft de vraag van consumenten de motor die bepaalt wat er wordt aangeboden."
+      ],
+      "answer": 0,
+      "explanation": "Let op de volgorde. Het gaat niet alleen om beïnvloede voorkeuren, maar om een omgeving waarin de ene optie gemakkelijk is gemaakt en de andere lastig. Je kiest nog steeds — maar binnen een kader dat iemand anders heeft neergezet.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ethics-hard-curriculum-2-8",
+      "module": 2,
+      "q": "Hoe positioneert de module agency ten opzichte van de sterke structurele krachten die gedrag sturen (infrastructuur, platformen, normen en aanbodgestuurde behoeften)?",
+      "options": [
+        "Agency bestaat binnen structurele grenzen: mensen handelen niet buiten systemen, maar kunnen binnen die kaders kleine verschuivingen veroorzaken die patronen zichtbaar maken of veranderen.",
+        "Agency is vooral een individuele aangelegenheid en speelt nauwelijks een rol bij collectieve verandering; daarvoor zijn instituties en regelgeving de enige werkzame route.",
+        "Agency is grotendeels een illusie: systemen bepalen gedrag zo sterk dat individuele handelingsruimte verwaarloosbaar is en verandering alleen van bovenaf kan komen.",
+        "Agency betekent volledige vrijheid; hoe sterk structuren ook zijn, individuen kunnen daar altijd buiten treden zolang zij daar bewust voor kiezen."
+      ],
+      "answer": 0,
+      "explanation": "Dit is de spil van de module. Niet ‘de mens is machteloos’ en niet ‘iedereen kiest zelf’, maar: je handelt binnen kaders, en juist daar zit ruimte om een patroon zichtbaar te maken of te verschuiven.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ethics-new-curriculum-3-0",
+      "module": 3,
+      "q": "Welke redenering verklaart het best waarom schaalvergroting kan omslaan in machtsconcentratie?",
+      "options": [
+        "Netwerkeffecten, data-accumulatie en schaalvoordelen versterken marktdominantie waardoor ondernemingen ook institutionele spelregels beïnvloeden.",
+        "Schaalvoordelen zorgen ervoor dat concurrentie vanzelf verdwijnt, omdat kleinere partijen de lagere kostprijs op den duur nooit kunnen bijhouden.",
+        "Consumenten geven systematisch de voorkeur aan één grote aanbieder boven een versnipperd aanbod, waardoor marktconcentratie uiteindelijk een gevolg is van vraag.",
+        "Grotere ondernemingen dragen dezelfde verantwoordelijkheid als kleine, maar worden door hun omvang minder goed gecontroleerd door toezichthouders en media."
+      ],
+      "answer": 0,
+      "explanation": "De omslag zit in de laatste stap. Een groot bedrijf is niet het probleem; een bedrijf dat groot genoeg is om de spelregels mee te schrijven wel — via lobby, standaarden en data die anderen niet hebben.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m3",
+      "difficulty": "basic"
+    },
+    {
+      "id": "ethics-new-curriculum-3-1",
+      "module": 3,
+      "q": "Waarom leidt financialisering volgens de module tot een verschuiving in tijdshorizon binnen ondernemingen?",
+      "options": [
+        "Omdat ondernemingen steeds sterker worden beoordeeld op beurswaarde en financiële indicatoren, waardoor kortetermijnresultaten zwaarder wegen dan investeringen die pas later iets opleveren.",
+        "Omdat aandeelhouders duurzaamheid en maatschappelijke stabiliteit expliciet hebben afgewezen als strategisch doel, en de bestuurlijke agenda daarmee hebben teruggebracht tot rendement.",
+        "Omdat overheden sinds de jaren tachtig kortere rapportagetermijnen zijn gaan voorschrijven, waardoor ondernemingen wettelijk verplicht zijn hun resultaten vaker en sneller zichtbaar te maken.",
+        "Omdat technologische innovatiecycli zo kort zijn geworden dat meerjarige strategische planning voor de meeste sectoren nauwelijks nog betekenis heeft als sturingsinstrument."
+      ],
+      "answer": 0,
+      "explanation": "Niemand verbiedt de langetermijninvestering. Het punt is dat de meetlat elk kwartaal opnieuw wordt gelegd, en wat daarop niet zichtbaar wordt, verliest het van wat dat wel doet.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m3",
+      "difficulty": "basic"
+    },
+    {
+      "id": "ethics-hard-curriculum-3-2",
+      "module": 3,
+      "q": "Stel dat ASML besluit een winstgevende maar risicovolle strategische herstructurering door te voeren die gevolgen heeft voor werkgelegenheid en regionale investeringen. Waarom leidt deze situatie, vanuit stakeholderperspectief, tot een legitimatievraagstuk?",
+      "options": [
+        "Omdat niet alleen kapitaal, maar meerdere partijen specifieke investeringen en risico’s dragen, waardoor de verdeling van zeggenschap moet worden gerechtvaardigd.",
+        "Omdat contractuele afspraken hun geldigheid verliezen zodra meerdere partijen aantoonbaar hebben bijgedragen aan de waarde die de onderneming heeft opgebouwd.",
+        "Omdat aandeelhouders bij een herstructurering met maatschappelijke gevolgen hun aanspraak op rendement tijdelijk moeten laten varen ten gunste van werknemers.",
+        "Omdat alle betrokken partijen bij een ingrijpende strategische beslissing automatisch recht krijgen op gelijke zeggenschap in de besluitvorming."
+      ],
+      "answer": 0,
+      "explanation": "De kern is de specifieke investering. Werknemers die zich hebben gespecialiseerd, toeleveranciers die hun productie hebben omgebouwd, een regio die er infrastructuur omheen legde: die inzet is niet zomaar elders in te zetten. Precies dat roept de vraag naar zeggenschap op.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m3",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ethics-hard-curriculum-3-4",
+      "module": 3,
+      "q": "Kapitaal stroomt naar waar het hoogste rendement wordt verwacht. Waarom is dat volgens de module meer dan alleen een efficiënte verdeling van middelen?",
+      "options": [
+        "Omdat het ook bepaalt wát er groeit: sectoren met lagere of moeilijk meetbare opbrengsten krijgen minder kapitaal en blijven achter.",
+        "Omdat rendementsverwachtingen achteraf vaak onjuist blijken, waardoor kapitaal stelselmatig in de verkeerde sectoren terechtkomt.",
+        "Omdat investeerders bij hun keuze nauwelijks rekening houden met risico, waardoor kapitaal zich ophoopt in speculatieve markten.",
+        "Omdat overheden via subsidies voortdurend bijsturen, waardoor de markt uiteindelijk toch niet zelf bepaalt waar geld heen gaat."
+      ],
+      "answer": 0,
+      "explanation": "Kapitaal is een selectiemechanisme, geen neutrale stroom. Zorg, natuurherstel en onderhoud leveren echte waarde, maar die is lastig in rendement uit te drukken — en trekt dus minder geld aan.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m3",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ethics-new-curriculum-4-0",
+      "module": 4,
+      "q": "De module noemt technologie een morele architectuur . Wat wordt daarmee bedoeld?",
+      "options": [
+        "Dat een ontwerp bepaalt welke handelingen vanzelfsprekend worden en welke moeilijk, en zo stilzwijgend verdeelt wie waartoe toegang heeft.",
+        "Dat ontwerpers een beroepscode horen te volgen waarin ethische uitgangspunten zijn vastgelegd voordat zij aan een nieuw systeem beginnen.",
+        "Dat technologie pas een morele lading krijgt op het moment dat een gebruiker haar bewust voor een goed of kwaad doel inzet.",
+        "Dat elke technologie uiteindelijk terug te voeren is op de morele overtuigingen van het bedrijf dat haar ontwikkelt en op de markt brengt."
+      ],
+      "answer": 0,
+      "explanation": "Architectuur is de goede vergelijking: een gebouw verbiedt niets, maar een trap zonder lift bepaalt wél wie boven komt. Zo werkt een ontwerp ook — geen regel, geen verbod, wel gevolgen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m4",
+      "difficulty": "basic"
+    },
+    {
+      "id": "ethics-new-curriculum-4-1",
+      "module": 4,
+      "q": "Winner (1980) stelt dat technologische artefacten politieke eigenschappen kunnen bevatten. Welke uitspraak sluit hier het best bij aan?",
+      "options": [
+        "Technologische artefacten kunnen bepaalde machtsverhoudingen ondersteunen of versterken, ook zonder de intentie van de ontwerper.",
+        "Politieke effecten van technologie ontstaan uitsluitend bij grootschalige systemen zoals kernenergie of wapens.",
+        "Technologie is politiek wanneer gebruikers haar bewust inzetten om maatschappelijke verandering te bewerkstelligen.",
+        "Technologie bevat politieke lading alleen wanneer overheden betrokken zijn bij de financiering of regulering ervan."
+      ],
+      "answer": 0,
+      "explanation": "Winners punt is dat een ontwerp gevolgen kan hebben die niemand bedoeld heeft. Zijn bekendste voorbeeld zijn viaducten die te laag zijn voor bussen: geen bordje, geen verbod, maar wel een selectie van wie er langs kan.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m4",
+      "difficulty": "basic"
+    },
+    {
+      "id": "ethics-new-curriculum-4-2",
+      "module": 4,
+      "q": "De automatische deur maakt een gebouw toegankelijker en schept tegelijk een afhankelijkheid van stroom, sensoren en onderhoud. Wat laat dit voorbeeld volgens de module vooral zien?",
+      "options": [
+        "Dat ook een eenvoudig ontwerp bepaalt wie er onder welke omstandigheden binnenkomt, en dus stilzwijgend toegang én afhankelijkheid verdeelt.",
+        "Dat technologie pas problematisch wordt zodra zij op grote schaal wordt toegepast binnen complexe en moeilijk te overziene systemen.",
+        "Dat de verantwoordelijkheid voor storingen bij de beheerder van het gebouw ligt, en niet bij degene die het systeem heeft ontworpen.",
+        "Dat toegankelijkheidsmaatregelen altijd een keerzijde hebben en daarom zorgvuldig moeten worden afgewogen tegen de kosten van beheer en onderhoud."
+      ],
+      "answer": 0,
+      "explanation": "Let op wie kwetsbaar wordt bij uitval: precies de groep voor wie de deur bedoeld was. Het ontwerp verdeelt niet alleen toegang, maar ook afhankelijkheid.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m4",
+      "difficulty": "basic"
+    },
+    {
+      "id": "ethics-hard-curriculum-4-3",
+      "module": 4,
+      "q": "Een organisatie introduceert een energiemonitoringsysteem. Welk effect beschrijft Latours Actor-Network Theory (ANT) het best in deze situatie?",
+      "options": [
+        "De technologie wordt onderdeel van een netwerk van relaties, waardoor gedrag van medewerkers, beslissingen van managers en prestatiemeting opnieuw worden verdeeld.",
+        "Het systeem creëert afhankelijkheid van externe leveranciers, waardoor strategische controle verschuift naar buiten de organisatie.",
+        "Het systeem vervangt menselijke beslissingen en vermindert daarmee de morele verantwoordelijkheid van individuele medewerkers.",
+        "Het systeem functioneert als neutrale databron die managers in staat stelt objectievere beslissingen te nemen."
+      ],
+      "answer": 0,
+      "explanation": "ANT kijkt niet naar techniek en mens apart, maar naar het netwerk dat ze samen vormen. Het meetsysteem ‘doet’ iets: het maakt bepaald gedrag zichtbaar en daarmee bespreekbaar, en verschuift zo wie waarop wordt aangesproken.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m4",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ethics-hard-curriculum-4-10",
+      "module": 4,
+      "q": "AI-sorteersystemen verhogen de efficiëntie van recycling aanzienlijk. Waarom is deze techniek volgens de module tóch niet waardevrij?",
+      "options": [
+        "Omdat de ontwerpkeuzes bepalen welke materialen als economisch waardevol gelden, en daarmee ook wat er wél en niet wordt teruggewonnen.",
+        "Omdat machine learning bij wisselende afvalstromen minder nauwkeurig blijkt dan de inspectie door ervaren medewerkers ter plaatse.",
+        "Omdat recycling in de afvalhiërarchie hoe dan ook lager staat dan hergebruik en reparatie, ongeacht hoe efficiënt het proces verloopt.",
+        "Omdat de installaties meer energie verbruiken dan handmatige sortering, waardoor de winst in materiaalterugwinning deels weer verdampt."
+      ],
+      "answer": 0,
+      "explanation": "Wat het systeem herkent als waardevol, bepaalt wat er in de kringloop terugkomt. Materialen waarvoor geen data of geen markt bestaat blijven onzichtbaar — ook al liggen ze op dezelfde band.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m4",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ethics-hard-curriculum-5-0",
+      "module": 5,
+      "q": "Suchman (1995) beschrijft hoe organisaties streven naar legitimiteit. Wat gebeurt er volgens de module wanneer maatschappelijke verwachtingen sneller veranderen dan het bedrijfsmodel kan volgen?",
+      "options": [
+        "Er ontstaat decoupling: de formele communicatie raakt losgekoppeld van de feitelijke praktijk, waardoor de reputatie meebeweegt zonder dat de activiteiten dat doen.",
+        "De organisatie past haar bedrijfsmodel versneld aan, omdat het verlies aan legitimiteit op termijn duurder uitpakt dan de kosten van die verandering.",
+        "De organisatie wacht af tot toezichthouders met bindende regels komen, omdat vrijwillige stappen zonder wettelijk kader vooral concurrentienadeel opleveren.",
+        "De maatschappelijke verwachting zwakt vanzelf af zodra blijkt dat de sector er op korte termijn niet aan kan voldoen, waardoor de druk weer afneemt."
+      ],
+      "answer": 0,
+      "explanation": "Decoupling is geen leugen maar een ontkoppeling: de buitenkant beweegt mee met de norm terwijl de binnenkant draait zoals hij draaide. Dat maakt greenwashing ook lastig aan te wijzen — er is vaak geen moment waarop iemand besluit te misleiden.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m5",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ethics-hard-curriculum-5-1",
+      "module": 5,
+      "q": "Greenwashing wordt in dit blok niet primair verklaard als een marketingprobleem. Welke verklaring sluit het best aan bij het systeemperspectief?",
+      "options": [
+        "Greenwashing ontstaat wanneer maatschappelijke verwachtingen over duurzaamheid sneller veranderen dan bedrijfsmodellen — versterkt door path dependency en institutionele druk.",
+        "Greenwashing is een bewuste strategie waarmee bedrijven ESG-investeerders misleiden via gestandaardiseerde rapportages die de werkelijke milieu-impact stelselmatig gunstiger voorstellen.",
+        "Greenwashing verdwijnt zodra consumenten beter worden geïnformeerd over milieuclaims, omdat de vraag uiteindelijk bepaalt welk aanbod overleeft en welke claims standhouden.",
+        "Greenwashing ontstaat doordat marketingafdelingen te veel ruimte krijgen en onvoldoende worden gecontroleerd door de rest van de organisatie, waardoor claims losraken van de feitelijke prestaties."
+      ],
+      "answer": 0,
+      "explanation": "Path dependency is het sleutelwoord. Een bedrijfsmodel is niet in één jaar om te bouwen, terwijl de verwachting van buiten wel in één jaar kan omslaan. In dat gat ontstaat de verleiding om de communicatie vooruit te laten lopen op de verandering.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m5",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ethics-new-curriculum-5-2",
+      "module": 5,
+      "q": "Delmas en Burbano (2011) onderscheiden meerdere vormen van greenwashing. Een bedrijf gebruikt termen als \"eco-friendly\" en \"natuurlijk\" zonder meetbare criteria. Welke vorm is dit?",
+      "options": [
+        "Vage of niet-verifieerbare claims, waarbij termen worden gebruikt zonder duidelijke definities of meetbare onderbouwing.",
+        "Selectieve communicatie, waarbij positieve initiatieven worden benadrukt terwijl negatieve activiteiten buiten beeld blijven.",
+        "Irrelevante communicatie, waarbij claims technisch kloppen maar geen betrekking hebben op significante milieu-impact.",
+        "Symbolische communicatie, waarbij extern gedrag wordt aangepast zonder dat de interne bedrijfsvoering verandert."
+      ],
+      "answer": 0,
+      "explanation": "Vage claims zijn de meest voorkomende vorm, juist omdat ze moeilijk te weerleggen zijn: er staat niets wat aantoonbaar onjuist is, maar ook niets wat je kunt controleren.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m5",
+      "difficulty": "basic"
     }
   ]
-})}).then(r=>{if(!r.ok)throw Error('vragen');return r.json()}).then(data=>{bank=data;initializeScores();for(const m of ownModules)prepareCustom(m);home();document.querySelectorAll('[data-course]').forEach(b=>b.onclick=()=>start(b.dataset.course));$('showBuilder').onclick=()=>{$('builder').hidden=false;$('builderMessage').textContent='';$('customTitle').focus()};$('closeBuilder').onclick=()=>{$('builder').hidden=true;$('builderMessage').textContent=''};$('addConcept').onclick=()=>addConceptRow();$('saveModule').onclick=saveCustomModule;for(let i=0;i<3;i++)addConceptRow();requestAnimationFrame(draw)}).catch(()=>{document.querySelector('.hero p').textContent='De vragen konden niet worden geladen. Vernieuw de pagina om het opnieuw te proberen.'});
+}
+)}).then(r=>{if(!r.ok)throw Error('vragen');return r.json()}).then(data=>{bank=data;for(const c of ['sustainability','ethics']){const known=new Set(bank[c].map(q=>q.id));if(progress[c]){progress[c].correct=(progress[c].correct||[]).filter(id=>known.has(id));progress[c].hard=(progress[c].hard||[]).filter(id=>known.has(id))}}save();initializeScores();for(const m of ownModules)prepareCustom(m);home();document.querySelectorAll('[data-course]').forEach(b=>b.onclick=()=>start(b.dataset.course));$('showBuilder').onclick=()=>{$('builder').hidden=false;$('builderMessage').textContent='';$('customTitle').focus()};$('closeBuilder').onclick=()=>{$('builder').hidden=true;$('builderMessage').textContent=''};$('addConcept').onclick=()=>addConceptRow();$('saveModule').onclick=saveCustomModule;for(let i=0;i<3;i++)addConceptRow();requestAnimationFrame(draw)}).catch(()=>{document.querySelector('.hero p').textContent='De vragen konden niet worden geladen. Vernieuw de pagina om het opnieuw te proberen.'});
 
 });</script></body></html>
