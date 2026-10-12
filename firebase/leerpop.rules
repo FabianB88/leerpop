@@ -1,0 +1,14 @@
+    // Leerpop: public, append-only scores in a separate collection.
+    match /leerpop_scores/{course}/entries/{entry} {
+      allow read: if course in ['sustainability', 'ethics'];
+      allow create: if course in ['sustainability', 'ethics']
+        && request.resource.data.keys().hasAll(['name', 'score', 'level', 'answered', 'createdAt'])
+        && request.resource.data.keys().hasOnly(['name', 'score', 'level', 'answered', 'createdAt'])
+        && request.resource.data.name is string
+        && request.resource.data.name.size() >= 1 && request.resource.data.name.size() <= 24
+        && request.resource.data.score is int && request.resource.data.score > 0 && request.resource.data.score <= 1000000000
+        && request.resource.data.level is int && request.resource.data.level >= 1 && request.resource.data.level <= 1000000
+        && request.resource.data.answered is int && request.resource.data.answered >= 1 && request.resource.data.answered <= 10000000
+        && request.resource.data.createdAt == request.time;
+      allow update, delete: if false;
+    }

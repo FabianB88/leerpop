@@ -1,0 +1,786 @@
+{
+  "sustainability": [
+    {
+      "id": "sustainability-1",
+      "module": 1,
+      "q": "Wat is systeemdenken?",
+      "options": [
+        "Kijken naar verbanden, patronen en terugkoppelingen",
+        "Elk probleem los van zijn omgeving oplossen",
+        "Alleen directe oorzaken tellen"
+      ],
+      "answer": 0,
+      "explanation": "Systeemdenken onderzoekt hoe onderdelen samen het gedrag van het geheel bepalen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-2",
+      "module": 1,
+      "q": "Welke drie dimensies horen bij de Triple Bottom Line?",
+      "options": [
+        "People, planet en profit",
+        "Prijs, productie en promotie",
+        "Milieu, klimaat en biodiversiteit"
+      ],
+      "answer": 0,
+      "explanation": "Het model verbindt sociale, ecologische en economische prestaties.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-3",
+      "module": 1,
+      "q": "Wat zijn systeemgrenzen?",
+      "options": [
+        "De afbakening van wat je in een analyse meeneemt",
+        "De maximale winst van een bedrijf",
+        "De grenzen tussen landen"
+      ],
+      "answer": 0,
+      "explanation": "Je systeemgrens bepaalt welke relaties en gevolgen je wel en niet ziet.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-4",
+      "module": 1,
+      "q": "Wat zijn de SDG’s?",
+      "options": [
+        "Zeventien mondiale doelen voor duurzame ontwikkeling",
+        "Drie regels voor afvalverwerking",
+        "Een meetinstrument voor uitsluitend CO₂"
+      ],
+      "answer": 0,
+      "explanation": "De SDG’s verbinden sociale, ecologische en economische ontwikkeling.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-5",
+      "module": 2,
+      "q": "Wat beschrijft het model van planetaire grenzen?",
+      "options": [
+        "De veilige ruimte voor menselijke activiteiten in het aardsysteem",
+        "Hoeveel inwoners elk land mag hebben",
+        "De maximale jaarlijkse economische groei"
+      ],
+      "answer": 0,
+      "explanation": "Het raamwerk beschrijft kritische processen voor de stabiliteit van de aarde.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-6",
+      "module": 2,
+      "q": "Welke sfeer omvat al het leven op aarde?",
+      "options": [
+        "Biosfeer",
+        "Lithosfeer",
+        "Atmosfeer"
+      ],
+      "answer": 0,
+      "explanation": "De biosfeer omvat organismen en ecosystemen; de lithosfeer is de vaste buitenlaag van de aarde.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-7",
+      "module": 2,
+      "q": "Wat omvat de hydrosfeer?",
+      "options": [
+        "Het water op aarde in zijn verschillende vormen",
+        "Alleen de luchtlaag rondom de aarde",
+        "Alleen gesteenten en aardkorst"
+      ],
+      "answer": 0,
+      "explanation": "De hydrosfeer omvat onder andere oceanen, ijs en grondwater.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-8",
+      "module": 2,
+      "q": "Bij welke planetaire grens horen stikstof- en fosforkringlopen?",
+      "options": [
+        "Biogeochemische stromen",
+        "Atmosferische ozonlaag",
+        "Verandering van landgebruik"
+      ],
+      "answer": 0,
+      "explanation": "Te grote stromen van stikstof en fosfor kunnen ecosystemen ontregelen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-9",
+      "module": 3,
+      "q": "Wat is de kern van een circulaire economie?",
+      "options": [
+        "Producten en materialen zo lang mogelijk op waarde houden",
+        "Alle afval verbranden voor energie",
+        "Zo veel mogelijk nieuwe producten verkopen"
+      ],
+      "answer": 0,
+      "explanation": "Circulariteit begint bij voorkomen en waardebehoud, en gaat verder dan recycling.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-10",
+      "module": 3,
+      "q": "Welke R-strategie betekent een onnodig product vermijden?",
+      "options": [
+        "Refuse",
+        "Repair",
+        "Recycle"
+      ],
+      "answer": 0,
+      "explanation": "Refuse voorkomt grondstofgebruik en afval al aan de bron.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-11",
+      "module": 3,
+      "q": "Wat is het verschil tussen reuse en recycle?",
+      "options": [
+        "Reuse gebruikt het product opnieuw; recycle verwerkt materiaal",
+        "Reuse verbrandt afval; recycle repareert het product",
+        "Beide betekenen precies hetzelfde"
+      ],
+      "answer": 0,
+      "explanation": "Bij hergebruik behoud je het product. Bij recycling win je materialen terug.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-12",
+      "module": 3,
+      "q": "Wat betekent Product-as-a-Service?",
+      "options": [
+        "De gebruiker betaalt voor gebruik; de aanbieder blijft eigenaar",
+        "De klant koopt het product en doet zelf alle reparaties",
+        "De producent verkoopt alleen losse grondstoffen"
+      ],
+      "answer": 0,
+      "explanation": "Eigenaarschap bij de aanbieder kan een lange levensduur en onderhoud aantrekkelijk maken.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-13",
+      "module": 3,
+      "q": "Waarom staan vermijden en hergebruiken doorgaans hoger op de R-ladder dan recyclen?",
+      "options": [
+        "Ze behouden meer productwaarde en voorkomen nieuwe productie",
+        "Ze leveren altijd meer omzet op",
+        "Recycling gebruikt nooit energie"
+      ],
+      "answer": 0,
+      "explanation": "Recycling behoudt materiaal, maar verliest vaak een deel van de waarde van het complete product.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-14",
+      "module": 4,
+      "q": "Wat is klimaatmitigatie?",
+      "options": [
+        "De oorzaken van klimaatverandering beperken",
+        "Je aanpassen aan de gevolgen van klimaatverandering",
+        "Alleen schade na een overstroming herstellen"
+      ],
+      "answer": 0,
+      "explanation": "Mitigatie beperkt bijvoorbeeld broeikasgasuitstoot. Adaptatie richt zich op omgaan met gevolgen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-15",
+      "module": 4,
+      "q": "Wat is klimaatadaptatie?",
+      "options": [
+        "Je aanpassen aan gevolgen van klimaatverandering",
+        "Uitsluitend uitstoot verminderen",
+        "Klimaatverandering ontkennen"
+      ],
+      "answer": 0,
+      "explanation": "Voorbeelden zijn waterberging en bescherming tegen hitte.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-16",
+      "module": 4,
+      "q": "Wat is netcongestie?",
+      "options": [
+        "Onvoldoende netcapaciteit voor transport op bepaalde momenten",
+        "Een tekort aan zonnestraling",
+        "Het volledig ontbreken van elektriciteitsproductie"
+      ],
+      "answer": 0,
+      "explanation": "Pieken in vraag of aanbod kunnen groter zijn dan de beschikbare transportcapaciteit.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-17",
+      "module": 4,
+      "q": "Wat is een versterkende terugkoppeling?",
+      "options": [
+        "Een verandering versterkt zichzelf via een lus",
+        "Een verandering wordt altijd afgeremd",
+        "Een relatie zonder terugwerking"
+      ],
+      "answer": 0,
+      "explanation": "Versterkend betekent niet automatisch goed: ook ongewenste ontwikkelingen kunnen zichzelf versterken.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-18",
+      "module": 5,
+      "q": "Wat is meervoudige waardecreatie?",
+      "options": [
+        "Economische, sociale en ecologische waarde samen creëren",
+        "Alleen financiële winst vergroten",
+        "Meer verschillende producten verkopen"
+      ],
+      "answer": 0,
+      "explanation": "Je kijkt verder dan één financiële maatstaf en weegt verschillende waarden mee.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-19",
+      "module": 5,
+      "q": "Welke twee perspectieven combineert dubbele materialiteit?",
+      "options": [
+        "Impact van het bedrijf op de wereld én duurzaamheidseffecten op het bedrijf",
+        "Omzet en nettowinst",
+        "Binnenlandse en buitenlandse klanten"
+      ],
+      "answer": 0,
+      "explanation": "Inside-out kijkt naar impact; outside-in naar financiële risico’s en kansen voor de organisatie.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-20",
+      "module": 5,
+      "q": "Wat betekent inside-out in dubbele materialiteit?",
+      "options": [
+        "De impact van een organisatie op mens en milieu",
+        "De financiële impact van klimaatrisico’s op een organisatie",
+        "De invloed van klanten op de productprijs"
+      ],
+      "answer": 0,
+      "explanation": "Dit perspectief gaat over de gevolgen die de organisatie buiten zichzelf veroorzaakt.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-21",
+      "module": 5,
+      "q": "Wat betekent outside-in in dubbele materialiteit?",
+      "options": [
+        "De invloed van duurzaamheidsissues op de organisatie",
+        "De uitstoot die een organisatie veroorzaakt",
+        "Het aantal mensen dat een product gebruikt"
+      ],
+      "answer": 0,
+      "explanation": "Dit perspectief onderzoekt hoe bijvoorbeeld klimaatrisico’s het bedrijf raken.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-22",
+      "module": 6,
+      "q": "Wat is biomimicry?",
+      "options": [
+        "Ontwerpen leren van principes en strategieën uit de natuur",
+        "Een product alleen een natuurlijke kleur geven",
+        "Alle natuurprocessen technisch vervangen"
+      ],
+      "answer": 0,
+      "explanation": "Biomimicry gebruikt natuur als inspiratie voor functionele en duurzame oplossingen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-23",
+      "module": 6,
+      "q": "Welke drie niveaus onderscheidt biomimicry?",
+      "options": [
+        "Vorm, proces en ecosysteem",
+        "Mens, markt en overheid",
+        "Grondstof, prijs en winst"
+      ],
+      "answer": 0,
+      "explanation": "Je kunt een vorm nabootsen, een natuurlijk proces leren toepassen of een heel systeem als voorbeeld nemen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-24",
+      "module": 6,
+      "q": "Wat betekent Life-Friendly Chemistry?",
+      "options": [
+        "Chemie gebruiken die verenigbaar is met leven",
+        "Zo veel mogelijk chemische stoffen mengen",
+        "Alle natuurlijke materialen zijn altijd veilig"
+      ],
+      "answer": 0,
+      "explanation": "Dit ontwerpprincipe richt zich op materiaalgebruik en chemie die levende systemen ondersteunen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-25",
+      "module": 6,
+      "q": "Wat benadrukken Life’s Principles?",
+      "options": [
+        "Aanpassen, efficiënt omgaan met hulpbronnen en lokale omstandigheden benutten",
+        "Onbegrensde groei met standaardoplossingen",
+        "Afhankelijkheid van één schaarse grondstof"
+      ],
+      "answer": 0,
+      "explanation": "Deze principes vertalen strategieën uit levende systemen naar ontwerp.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-26",
+      "module": 7,
+      "q": "Wat is een wicked problem?",
+      "options": [
+        "Een complex vraagstuk met uiteenlopende belangen en geen eenduidige oplossing",
+        "Een technisch probleem met één vast antwoord",
+        "Een probleem dat je met één berekening oplost"
+      ],
+      "answer": 0,
+      "explanation": "Probleemdefinitie, belangen en effecten van interventies hangen samen en kunnen veranderen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-27",
+      "module": 7,
+      "q": "Wat toont een Causal Loop Diagram (CLD)?",
+      "options": [
+        "Oorzakelijke verbanden en terugkoppellussen",
+        "Alleen de tijdlijn van een project",
+        "Alleen de organisatiestructuur"
+      ],
+      "answer": 0,
+      "explanation": "Een CLD helpt zichtbaar maken hoe variabelen elkaar beïnvloeden en terugkoppelen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-28",
+      "module": 7,
+      "q": "Wat is een balancing loop?",
+      "options": [
+        "Een terugkoppeling die een verandering afremt of stabiliseert",
+        "Een terugkoppeling die elke verandering versnelt",
+        "Een kringloop zonder onderlinge relaties"
+      ],
+      "answer": 0,
+      "explanation": "Balancing betekent balancerend. Het verwijst naar de werking van de lus, niet naar een moreel oordeel.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-29",
+      "module": 7,
+      "q": "Wat betekent lock-in?",
+      "options": [
+        "Een systeem raakt vast in bestaande structuren en prikkels",
+        "Een bedrijf heeft geen klanten",
+        "Elke innovatie is onmogelijk"
+      ],
+      "answer": 0,
+      "explanation": "Bestaande investeringen, infrastructuur en belangen kunnen alternatieven moeilijk maken.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-30",
+      "module": 7,
+      "q": "Wat is padafhankelijkheid?",
+      "options": [
+        "Eerdere keuzes beïnvloeden welke volgende keuzes haalbaar zijn",
+        "Het beste besluit staat los van het verleden",
+        "Alle systemen volgen dezelfde route"
+      ],
+      "answer": 0,
+      "explanation": "Het opgebouwde systeem kan sommige routes aantrekkelijker maken dan andere.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-31",
+      "module": 8,
+      "q": "Wat is een trade-off?",
+      "options": [
+        "Een afweging tussen doelen of waarden die kunnen botsen",
+        "Een oplossing die alle doelen altijd maximaal haalt",
+        "Een financiële transactie zonder gevolgen"
+      ],
+      "answer": 0,
+      "explanation": "Een keuze kan bijvoorbeeld circulariteit versterken terwijl kosten of schaalbaarheid veranderen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-32",
+      "module": 8,
+      "q": "Wat is een systeemkaart?",
+      "options": [
+        "Een overzicht van betrokken onderdelen, actoren en relaties",
+        "Een lijst met alleen eindresultaten",
+        "Een kaart met uitsluitend locaties"
+      ],
+      "answer": 0,
+      "explanation": "Een systeemkaart helpt samenhang en mogelijke interventiepunten herkennen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-33",
+      "module": 8,
+      "q": "Wat is stakeholderanalyse?",
+      "options": [
+        "Belangen, invloed en betrokkenheid van partijen onderzoeken",
+        "Alleen aandeelhouders tellen",
+        "Alleen concurrenten vergelijken"
+      ],
+      "answer": 0,
+      "explanation": "Verschillende belanghebbenden kunnen anders geraakt worden door dezelfde keuze.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-34",
+      "module": 9,
+      "q": "Wat onderzoekt een levenscyclusanalyse (LCA)?",
+      "options": [
+        "Milieu-impact over de levenscyclus van een product",
+        "Alleen de verkoopprijs",
+        "Alleen de afvalfase"
+      ],
+      "answer": 0,
+      "explanation": "Een LCA volgt de impact van grondstofwinning via productie en gebruik tot het einde van de levensduur.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    },
+    {
+      "id": "sustainability-35",
+      "module": 9,
+      "q": "Wat is een systeemhefboom?",
+      "options": [
+        "Een plek waar een ingreep veel invloed op systeemgedrag kan hebben",
+        "De grootste machine in een fabriek",
+        "Een oplossing die nooit neveneffecten heeft"
+      ],
+      "answer": 0,
+      "explanation": "Hefbomen kunnen bijvoorbeeld liggen in regels, informatie of prikkels.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/player.html?c=duurzaamheid-fundamenten"
+    }
+  ],
+  "ethics": [
+    {
+      "id": "ethics-1",
+      "module": 1,
+      "q": "Een fabriek loost afvalwater. Omwonenden betalen voor schoonmaak en gezondheidsschade. Welk begrip verklaart dit?",
+      "options": [
+        "Externaliteiten",
+        "Interne efficiency",
+        "Vrije concurrentie"
+      ],
+      "answer": 0,
+      "explanation": "Kosten worden afgewenteld op partijen die niet aan de transactie deelnemen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m1"
+    },
+    {
+      "id": "ethics-2",
+      "module": 1,
+      "q": "Een stad verdeelt schaars drinkwater tussen industrie en inwoners. Wat moet een morele analyse meenemen?",
+      "options": [
+        "Wie toegang krijgt, wie risico draagt en welke behoeften voorrang krijgen",
+        "Alleen wie het hoogste bedrag betaalt",
+        "Alleen het aantal beschikbare liters"
+      ],
+      "answer": 0,
+      "explanation": "Verdeling is een waardengeladen keuze, naast de technische berekening van schaarste.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m1"
+    },
+    {
+      "id": "ethics-3",
+      "module": 1,
+      "q": "Een visgebied is voor iedereen toegankelijk. Elke visser wil meer vangen, samen putten ze de voorraad uit. Wat is een passende ingreep?",
+      "options": [
+        "Gezamenlijke afspraken over gebruik en verantwoordelijkheid",
+        "Iedere visser onbeperkt laten uitbreiden",
+        "Alleen sneller leren vissen"
+      ],
+      "answer": 0,
+      "explanation": "Commons vragen om beheer dat individueel voordeel verbindt met het gezamenlijke belang.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m1"
+    },
+    {
+      "id": "ethics-4",
+      "module": 1,
+      "q": "Een fonds koopt vastgoed. Huurinkomsten financieren meer aankopen, waarna het fonds sterker het aanbod bepaalt. Welk mechanisme zie je?",
+      "options": [
+        "Cumulatieve bezits- en machtsopbouw",
+        "Een automatische daling van ongelijkheid",
+        "Een volledig neutrale verdeling"
+      ],
+      "answer": 0,
+      "explanation": "Bezit levert opbrengsten en nieuwe investeringsmogelijkheden op; daarmee kan ook macht groeien.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m1"
+    },
+    {
+      "id": "ethics-5",
+      "module": 1,
+      "q": "Een sorteermachine maximaliseert opbrengst maar laat schadelijk afval liggen. Wat moet het bedrijf veranderen?",
+      "options": [
+        "Het ontwerp en de doelen moeten ook maatschappelijke gevolgen meewegen",
+        "Ervan uitgaan dat de machine vanzelf empathie ontwikkelt",
+        "Alleen de snelheid verhogen"
+      ],
+      "answer": 0,
+      "explanation": "Een systeem optimaliseert zijn ingestelde doelen. Morele waarden moeten een plek krijgen in dat ontwerp.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m1"
+    },
+    {
+      "id": "ethics-6",
+      "module": 2,
+      "q": "Iedere medewerker twijfelt aan een onveilig proces, maar denkt dat de rest het goed vindt. Niemand spreekt zich uit. Wat helpt?",
+      "options": [
+        "Een veilige ruimte voor twijfel en afwijkende meningen",
+        "Nog sterkere druk om eensgezind over te komen",
+        "Aannemen dat stilte instemming bewijst"
+      ],
+      "answer": 0,
+      "explanation": "Groepsnormen kunnen individuele twijfel onzichtbaar maken en een collectieve illusie in stand houden.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m2"
+    },
+    {
+      "id": "ethics-7",
+      "module": 2,
+      "q": "Een medewerker zegt: “Ik voer alleen orders uit; de schade is niet mijn verantwoordelijkheid.” Wat herken je?",
+      "options": [
+        "Morele ontkoppeling door verantwoordelijkheid af te schuiven",
+        "Een volledige stakeholderafweging",
+        "Een voorbeeld van morele moed"
+      ],
+      "answer": 0,
+      "explanation": "Afstand nemen van eigen verantwoordelijkheid maakt schadelijk handelen makkelijker te rechtvaardigen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m2"
+    },
+    {
+      "id": "ethics-8",
+      "module": 2,
+      "q": "Een app maakt doorkijken automatisch en stoppen lastig. De aanbieder noemt dit vrije keuze. Wat is de beste analyse?",
+      "options": [
+        "Ontwerp stuurt welke keuze vanzelfsprekend wordt",
+        "Een keuze is altijd vrij zodra een knop bestaat",
+        "Technologie heeft geen invloed op gedrag"
+      ],
+      "answer": 0,
+      "explanation": "Agency bestaat binnen een kader dat onder andere door ontwerp en infrastructuur wordt gevormd.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m2"
+    },
+    {
+      "id": "ethics-9",
+      "module": 2,
+      "q": "Een manager wuift zorgen weg omdat “we het altijd zo doen”. Hoe toon je agency binnen dit systeem?",
+      "options": [
+        "De routine bespreekbaar maken en een uitvoerbare verandering voorstellen",
+        "Wachten totdat het systeem vanzelf verdwijnt",
+        "Aannemen dat individuele acties nooit invloed hebben"
+      ],
+      "answer": 0,
+      "explanation": "Handelingsruimte is begrensd, maar kleine interventies kunnen patronen zichtbaar maken en veranderen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m2"
+    },
+    {
+      "id": "ethics-10",
+      "module": 2,
+      "q": "Een team kiest onder tijdsdruk steeds de standaardoptie, zonder gevolgen te bespreken. Welke interventie past?",
+      "options": [
+        "Een vast reflectiemoment en ruimte voor correctie inbouwen",
+        "Alle keuzes nog sneller laten nemen",
+        "Meer informatie geven zonder tijd voor bespreking"
+      ],
+      "answer": 0,
+      "explanation": "Routines zijn efficiënt, maar zonder reflectie kunnen ze onbedoelde schade versterken.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m2"
+    },
+    {
+      "id": "ethics-11",
+      "module": 3,
+      "q": "Een onderneming schrapt opleiding om de kwartaalwinst te verhogen. Welk mechanisme verklaart de korte horizon?",
+      "options": [
+        "Financialisering",
+        "Meervoudige waardecreatie",
+        "Verdeling van zeggenschap"
+      ],
+      "answer": 0,
+      "explanation": "Sterke sturing op financiële indicatoren kan investeringen met latere opbrengsten verdringen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m3"
+    },
+    {
+      "id": "ethics-12",
+      "module": 3,
+      "q": "Bij een herstructurering dragen werknemers en de regio grote risico’s, maar alleen aandeelhouders beslissen. Welke vraag is ethisch relevant?",
+      "options": [
+        "Hoe zeggenschap wordt gerechtvaardigd tegenover alle risicodragende partijen",
+        "Of de aandeelhouders de hoogste winst krijgen",
+        "Of alleen de marketing voldoende aandacht krijgt"
+      ],
+      "answer": 0,
+      "explanation": "Stakeholderperspectief vraagt aandacht voor partijen die investeren, afhankelijk zijn of risico’s dragen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m3"
+    },
+    {
+      "id": "ethics-13",
+      "module": 3,
+      "q": "Een voorstel om vervuiling te beperken sneuvelt omdat het niet in de financiële KPI’s past. Wat gebeurt hier?",
+      "options": [
+        "Een organisatorisch filter houdt morele overwegingen buiten de besluitvorming",
+        "Alle stakeholders worden gelijk behandeld",
+        "Het voorstel heeft daarom geen maatschappelijke waarde"
+      ],
+      "answer": 0,
+      "explanation": "Wat niet bij de bestaande doelen en indicatoren past, kan onzichtbaar worden in beslissingen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m3"
+    },
+    {
+      "id": "ethics-14",
+      "module": 3,
+      "q": "Een platform groeit door meer gebruikers en data, en kan daarna voorwaarden aan leveranciers opleggen. Wat verklaart dit?",
+      "options": [
+        "Netwerkeffecten en schaalvoordelen versterken machtsconcentratie",
+        "Groei maakt alle marktpartijen automatisch gelijk",
+        "Data verminderen altijd het machtsverschil"
+      ],
+      "answer": 0,
+      "explanation": "Economisch succes kan overgaan in macht om de spelregels van de markt te bepalen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m3"
+    },
+    {
+      "id": "ethics-15",
+      "module": 3,
+      "q": "Een belegger kan direct uitstappen bij tegenvallende cijfers. Hoe kan dit de bedrijfsstrategie sturen?",
+      "options": [
+        "Het verhoogt druk om snel financiële resultaten te tonen",
+        "Het garandeert langetermijninvesteringen",
+        "Het verwijdert alle afhankelijkheid van kapitaal"
+      ],
+      "answer": 0,
+      "explanation": "Mobiel kapitaal kan ondernemingen disciplineren via druk op korte-termijnprestaties.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m3"
+    },
+    {
+      "id": "ethics-16",
+      "module": 4,
+      "q": "Een gebouw krijgt een automatische deur. Bij stroomuitval kunnen sommige bezoekers niet naar binnen. Wat toont dit?",
+      "options": [
+        "Ontwerp verdeelt toegang én creëert afhankelijkheden",
+        "Toegankelijkheid is alleen een kwestie van goede intenties",
+        "Een deur heeft geen sociale gevolgen"
+      ],
+      "answer": 0,
+      "explanation": "Technologische keuzes beïnvloeden wie kan meedoen en onder welke voorwaarden.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m4"
+    },
+    {
+      "id": "ethics-17",
+      "module": 4,
+      "q": "Een energiemonitor verandert zowel werkgedrag als beoordelingen van managers. Hoe verklaart ANT dit?",
+      "options": [
+        "Mensen en technologie vormen een netwerk dat rollen en gedrag verandert",
+        "De techniek is slechts een passief hulpmiddel zonder effect",
+        "Alleen de manager kan invloed uitoefenen"
+      ],
+      "answer": 0,
+      "explanation": "Actor-Network Theory kijkt naar relaties waarin ook technische onderdelen invloed hebben.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m4"
+    },
+    {
+      "id": "ethics-18",
+      "module": 4,
+      "q": "Een platform bepaalt welke verkopers zichtbaar zijn en wie klantdata krijgt. Welke rol vervult het?",
+      "options": [
+        "Poortwachter van markttoegang",
+        "Volledig neutrale doorgeefluik",
+        "Een gewone klant zonder invloed"
+      ],
+      "answer": 0,
+      "explanation": "Beheer van infrastructuur geeft macht over toegang, zichtbaarheid en voorwaarden.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m4"
+    },
+    {
+      "id": "ethics-19",
+      "module": 4,
+      "q": "Een app verzamelt gedrag om voorspellingen te verkopen en aankopen te sturen. Welk model herken je?",
+      "options": [
+        "Surveillancekapitalisme",
+        "Alleen administratieve digitalisering",
+        "Commonsbeheer"
+      ],
+      "answer": 0,
+      "explanation": "Gedragsdata worden een bron van economische waarde via voorspelling en beïnvloeding.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m4"
+    },
+    {
+      "id": "ethics-20",
+      "module": 4,
+      "q": "AI herkent vooral winstgevende afvalstromen; andere materialen blijven liggen. Welke ethische vraag past?",
+      "options": [
+        "Welke waarden zijn in selectie en optimalisatie ingebouwd?",
+        "Hoe kunnen we aannemen dat AI altijd neutraal is?",
+        "Hoe verwijderen we mensen uit iedere afweging?"
+      ],
+      "answer": 0,
+      "explanation": "Ook efficiënt sorteren bevat keuzes over wat waardevol is en wat buiten beeld raakt.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m4"
+    },
+    {
+      "id": "ethics-21",
+      "module": 5,
+      "q": "Een bedrijf promoot één groene productlijn terwijl het vervuilende kernmodel blijft bestaan. Wat moet je onderzoeken?",
+      "options": [
+        "De verhouding tussen gecommuniceerde duurzaamheid en de totale praktijk",
+        "Alleen of de campagne populair is",
+        "Alleen de kleur van de verpakking"
+      ],
+      "answer": 0,
+      "explanation": "Selectieve communicatie kan een klein initiatief laten lijken op brede verduurzaming.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m5"
+    },
+    {
+      "id": "ethics-22",
+      "module": 5,
+      "q": "Op een verpakking staat “natuurlijk en groen”, zonder definitie of meetbare onderbouwing. Welke vorm herken je?",
+      "options": [
+        "Vage of niet-verifieerbare claims",
+        "Een controleerbare impactmeting",
+        "Een noodzakelijke circulaire strategie"
+      ],
+      "answer": 0,
+      "explanation": "Zonder duidelijke criteria kan de claim een gunstige indruk geven die je niet kunt toetsen.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m5"
+    },
+    {
+      "id": "ethics-23",
+      "module": 5,
+      "q": "Een merk benadrukt dat het een stof niet gebruikt die al verboden is. Waarom kan dit misleidend zijn?",
+      "options": [
+        "Een irrelevante claim presenteert een verplichting als bijzondere prestatie",
+        "Elke feitelijk juiste claim bewijst volledige duurzaamheid",
+        "Wettelijke naleving is altijd een innovatie"
+      ],
+      "answer": 0,
+      "explanation": "De claim kan kloppen en toch niets zeggen over onderscheidende milieuprestaties.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m5"
+    },
+    {
+      "id": "ethics-24",
+      "module": 5,
+      "q": "Een bedrijf past zijn duurzaamheidsverhaal snel aan, maar de werkprocessen veranderen nauwelijks. Welk mechanisme zie je?",
+      "options": [
+        "Decoupling tussen formele communicatie en praktijk",
+        "Volledige organisatorische transformatie",
+        "Een bewezen daling van alle impact"
+      ],
+      "answer": 0,
+      "explanation": "Communicatie en feitelijke activiteiten raken losgekoppeld onder druk om legitiem te lijken.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m5"
+    },
+    {
+      "id": "ethics-25",
+      "module": 5,
+      "q": "Een eerlijk duurzaam bedrijf verliest klanten aan een concurrent die alleen een groen imago koopt. Welk ethisch gevolg zie je?",
+      "options": [
+        "Oneerlijke concurrentie en aantasting van vertrouwen",
+        "Een automatische verbetering van de sector",
+        "Een bewijs dat echte verduurzaming overbodig is"
+      ],
+      "answer": 0,
+      "explanation": "Greenwashing kan echte investeringen benadelen en vertrouwen in duurzaamheidsclaims schaden.",
+      "source": "https://fabianb88.github.io/minor-ce-elearnings/cursus.html?m=business-ethics#m5"
+    }
+  ]
+}
